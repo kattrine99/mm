@@ -1,0 +1,82 @@
+@import "tailwindcss";
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+
+@font-face {
+    font-family: 'Vela Sans';
+    src: url("/fonts/VelaSans-Regular.woff2") format("woff2"),
+        url("/fonts/VelaSans-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Vela Sans', sans-serif;
+}
+
+/* плавные переходы */
+.swiper {
+    height: 100%;
+}
+
+.swiper-wrapper {
+    margin-bottom: 55px;
+}
+
+.screensSwiper .swiper-slide img {
+    transform: scale(0.8);
+    opacity: 0.35;
+    filter: blur(3px);
+    transition: all 0.3s ease;
+}
+
+.screensSwiper .swiper-slide-active img {
+    transform: scale(1);
+    opacity: 1;
+    filter: none;
+}
+
+/* тени как в макете */
+.screensSwiper .swiper-slide .slide-frame {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .15);
+}
+
+.screensSwiper .swiper-slide-active .slide-frame {
+    box-shadow: 0 25px 60px rgba(0, 0, 0, .25);
+}
+
+/* точки пагинации */
+.swiper-pagination-bullet {
+    margin-top: 40px;
+    background: #ECF7FE;
+    opacity: 1;
+    width: 15px;
+    height: 15px;
+}
+
+.swiper-pagination-bullet-active {
+    background: #2FA2FF;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.businessSwiper .swiper-pagination {
+    margin-bottom: 20px;
+}
+
+.businessSwiper .swiper-pagination-bullet {
+    background: #E6E6E6;
+    opacity: 1;
+    width: 70px;
+    height: 5px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.businessSwiper .swiper-pagination-bullet-active {
+    background: #1C1917;
+    width: 70px;
+    height: 5px;
+    border-radius: 16px;
+}

@@ -1,0 +1,12 @@
+export { Button } from "./Button/Button";
+export { Header } from "./Header/header";
+export { Footer } from "./Footer/Footer";
+export { BlockWindow } from "./mainWidnow/BlockWindow";
+export { PercentsCards } from "./CardsSection-Percents/PercentsCard/PercentCards"
+export { Heading } from "./Heading/Heading"
+export { Modal } from "./Modal/Modal";
+export { ConnectBusinessModal } from "./Modal/ConnectBusinessModal";
+export { ConnectBusinessForm } from "./Modal/ConnectBusinessForm";
+export { BusinessSwiper } from "./BusinessSwiper/BusinessSwiper";
+export { AppScreensSwiper } from "./AppScreensSwiper/AppScreensSwiper";
+export { RootLayout } from "./ScrollTotop/rootLayout"
