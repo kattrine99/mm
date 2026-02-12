@@ -1,4 +1,4 @@
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './App.css';
 import 'swiper';
 import { ForParnters, AboutPlatform, Policy } from "./pages/index";
@@ -6,7 +6,7 @@ import "./i18n/index";
 import { RootLayout } from "./components";
 
 function App() {
-  const routerConfig = createHashRouter([
+  const routerConfig = createBrowserRouter([
     {
       element: <RootLayout />,
       children: [
