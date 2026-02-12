@@ -81,9 +81,10 @@ export function ConnectBusinessForm({
             .replace(/[_()-\s]+$/g, "");
     }
 
-    const BOT_TOKEN = '';
-    const CHAT_ID = '';
-
+    const BOT_TOKEN = import.meta.env.TG_BOT_TOKEN;
+    const CHAT_ID = import.meta.env.TG_CHAT_ID;
+console.log("BOT_TOKEN:", import.meta.env.VITE_TG_BOT_TOKEN);
+console.log("CHAT_ID:", import.meta.env.VITE_TG_CHAT_ID);
     const onSubmit = async (data: FormValues) => {
         const digits = data.phone.replace(/\D/g, "");
         const normalized = `+${digits.startsWith("998") ? digits : "998" + digits}`;

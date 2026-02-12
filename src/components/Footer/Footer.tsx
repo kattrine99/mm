@@ -78,43 +78,33 @@ export const Footer = () => {
       .replace(/[_()-\s]+$/g, "");
   }
 
-  const BOT_TOKEN = "";
-  const CHAT_ID = "";
-
   const onSubmit = async (data: FooterFormValues) => {
-    const digits = data.phone.replace(/\D/g, "");
-    const normalized = `+${digits.startsWith("998") ? digits : "998" + digits}`;
+  const digits = data.phone.replace(/\D/g, "");
+  const normalized = `+${digits.startsWith("998") ? digits : "998" + digits}`;
 
-    const text = `
-📝 Новая заявка (микромаркет)
-👤 Имя: ${data.name}
-🏢 Компания: ${data.company}
-📞 Телефон: ${normalized}
-💬 Комментарий: ${data.comment || "—"}
-`;
+  try {
+    const resp = await fetch("/api/telegram", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: data.name,
+        company: data.company,
+        phone: normalized,
+        comment: data.comment || "",
+      }),
+    });
 
-    try {
-      const resp = await fetch(
-        `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`,
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ chat_id: CHAT_ID, text }),
-        }
-      );
-
-      const json = await resp.json().catch(() => null);
-      if (!resp.ok || !json?.ok) {
-        throw new Error(json?.description || `HTTP ${resp.status}`);
-      }
-
-      alert("Заявка отправлена! Мы скоро свяжемся с вами.");
-    } catch (e: any) {
-      console.error(e);
-      alert(`Не удалось отправить заявку: ${e?.message || "ошибка сети"}`);
+    const json = await resp.json().catch(() => null);
+    if (!resp.ok || !json?.ok) {
+      throw new Error(json?.description || `HTTP ${resp.status}`);
     }
-  };
 
+    alert("Заявка отправлена! Мы скоро свяжемся с вами.");
+  } catch (e: any) {
+    console.error(e);
+    alert(`Не удалось отправить заявку: ${e?.message || "ошибка сети"}`);
+  }
+};
   return (
     <div className="flex flex-col bg-[url(/images/footer-bg.png)] bg-contain bg-no-repeat bg-left-top shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] rounded-2xl mb-10 mx-4 sm:mx-6 md:mx-8 min-[1090px]:mx-10 xl:mx-15 2xl:mx-25">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 py-10 px-4 sm:px-6 md:px-8 min-[1090px]:px-10 xl:px-15 2xl:px-25">

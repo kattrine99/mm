@@ -8,8 +8,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
             name: string; company: string; phone: string; comment?: string;
         };
 
-        const token = process.env.TELEGRAM_BOT_TOKEN!;
-        const chatId = process.env.TELEGRAM_CHAT_ID!; // -4883024306
+        const token = process.env.TG_BOT_TOKEN!;
+        const chatId = process.env.TG_CHAT_ID!; 
 
         const text =
             `📝 Новая заявка

@@ -1,447 +1,121 @@
 {
-    "header": {
-        "users": "Пользователям",
-        "partners": "Партнерам",
-        "about": "О платформе",
-        "contacts": "Контакты",
-        "profile": "Профиль",
-        "comingSoon": {
-            "title": "Скоро",
-            "description": "Этот раздел в разработке. Мы уже работаем над ним!"
-        },
-        "common": {
-            "ok": "Понятно",
-            "close": "Закрыть"
-        }
-    },
-    "blockWindow": {
-        "heading": {
-            "part1": "Экономьте",
-            "part2": "на каждом визите"
-        },
-        "headingSuffix": "в кафе и магазины",
-        "text": "Получайте скидки до 50 % в любимых заведениях — без купонов и в одном приложении",
-        "btn1": "Начать экономить",
-        "btn2": "Узнать больше"
-    },
-    "cards": {
-        "discounts": {
-            "title": "до",
-            "description": "Скидки рядом — все предложения от заведений в одной удобной ленте",
-            "button": "Единая лента скидок"
-        },
-        "instant": {
-            "title": "секунда",
-            "description": "Просто покажите QR-код на кассе и сразу получите свою скидку",
-            "button": "Моментальное получение скидки"
-        },
-        "personal": {
-            "description1": "Ежедневных предложений в заведениях рядом с вами",
-            "description2": "Сервис сам подбирает для вас актуальные предложения: учитываются ваши предпочтения, история посещений и текущее местоположение",
-            "button": "Персональные предложения"
-        },
-        "saving": {
-            "description": "сум в среднем экономят пользователи в месяц, просто показывая QR-код на кассе"
-        }
-    },
-    "screens": {
-        "title.part1": "Как выглядит",
-        "title.part2": " приложение"
-    },
-    "textIcons": [
-        "Умная подборка акций",
-        "Никаких купонов и кодов",
-        "Гео-таргетинг скидок",
-        "Персональные предложения",
-        "Уведомления о новых акциях"
-    ],
-    "pricing": "Всего за 63 000 сум в месяц",
-    "businessSwiper": {
-        "title_right": "с выгодными предложениями по всему Узбекистану",
-        "description": "Более 200 точек",
-        "paragraph": {
-            "part1": "Ежедневно в приложении вы найдете сотни акций: от маленьких уютных кофеен и локальных пекарен до крупных сетевых ресторанов и магазинов.",
-            "part2": "Не откладывайте на завтра — начните экономить уже сегодня!"
-        },
-        "items": [
-            {
-                "title": "Safia Cafe & Bakery",
-                "category": "Кондитерская",
-                "image": "/images/safia.webp"
-            },
-            {
-                "title": "Chekhov sport club",
-                "category": "Спорт",
-                "image": "/images/sport.webp"
-            },
-            {
-                "title": "Arzon Apteka",
-                "category": "Аптека",
-                "image": "/images/doctor.webp"
-            },
-            {
-                "title": "Bloom Cosmetics",
-                "category": "Магазин косметики",
-                "image": "/images/bloom.webp"
-            }
-        ]
-    },
-    "heading": {
-        "oneStep": {
-            "text": "Один шаг до",
-            "subtext": " сотен акций",
-            "description": "Простой и удобный способ получать скидки каждый день в любимых заведениях рядом с вами. Всё, что нужно — установить приложение"
-        }
-    },
-    "faq": {
-        "heading": {
-            "text": "Отвечаем на ",
-            "subtext": "часто задаваемые вопросы"
-        },
-        "items": [
-            {
-                "question": "Сколько стоит подписка и как работает пробный период?",
-                "answer": "Стоимость подписки зависит от выбранного тарифа. Мы предлагаем гибкие планы — от базового до премиум. Пробный период длится 7 дней и позволяет использовать все функции без ограничений."
-            },
-            {
-                "question": "Как отменить подписку?",
-                "answer": "Перейдите в раздел «Управление подпиской» в личном кабинете, нажмите «Отменить подписку» и подтвердите действие. Подписка останется активной до конца оплаченного периода, после чего автосписание будет отключено."
-            },
-            {
-                "question": "Какие способы оплаты вы поддерживаете?",
-                "answer": "Мы поддерживаем оплату банковскими картами Visa, UzCard и Humo card, а также использование приложений Click и PayMe."
-            },
-            {
-                "question": "Куда обращаться, если возникли технические проблемы?",
-                "answer": "Вы можете написать в службу поддержки через форму обратной связи в личном кабинете или отправить письмо на support@example.com. Мы отвечаем в течение 24 часов."
-            },
-            {
-                "question": "Что делать, если я не хочу привязывать банковскую карту?",
-                "answer": "Вы можете использовать Click и PayMe."
-            }
-        ]
-    },
-    "footerForm": {
-        "description": "Если останутся вопросы, ответ на которые найти не удалось — оставьте свои контактные данные и наши специалисты помогут вам разобраться",
-        "button": "Задать вопрос"
-    },
     "modal": {
-        "successTitle": "Заявка отправлена",
-        "successDesc": "Спасибо! Мы свяжемся с вами в ближайшее время.",
-        "closeBtn": "Закрыть"
+    "successTitle": "Заявка отправлена",
+    "successDesc": "Спасибо! Мы свяжемся с вами в ближайшее время.",
+    "close": "Закрыть"
     },
-    "buttons": [
-        "Рестораны",
-        "Кофейни",
-        "Электроника",
-        "Аптеки",
-        "Косметика",
-        "Одежда и обувь",
-        "Спортовары",
-        "Детские товары",
-        "Продукты"
-    ],
-    "footer": {
-        "title": "Навигация"
-    },
-    "social": {
-        "title": "Соцсети"
-    },
-    "contacts": {
-        "title": "Контакты"
-    },
-    "bottom": {
-        "rights": "© 2025 Все права защищены",
-        "policy": "Политика конфиденциальности",
-        "developed": "Designed and Developed by Cooming Soon"
-    },
-    "policy": {
-        "title": "Политика",
-        "subtitle": "конфиденциальности",
-        "content": [
-            "Настоящая Политика конфиденциальности определяет порядок сбора, использования, хранения и защиты персональной информации пользователей приложения Discount App.",
-            "Мы собираем только те данные, которые необходимы для предоставления и улучшения сервиса, включая имя, контактные данные, информацию о заказах и предпочтениях.",
-            "Персональные данные используются исключительно для оказания услуг, обработки запросов, предоставления скидок и акций, а также для улучшения качества обслуживания.",
-            "Мы не передаем личные данные третьим лицам, за исключением случаев, предусмотренных законодательством или необходимых для выполнения обязательств перед пользователем.",
-            "Пользователь может в любой момент запросить удаление своих персональных данных, отправив запрос на электронную почту службы поддержки.",
-            "Используя наше приложение, вы соглашаетесь с условиями данной Политики конфиденциальности."
-        ]
-    },
-    "forPartners": {
-        "hero": {
-            "heading.part1": "Повышайте",
-            "heading.part2": "продажи и лояльность",
-            "heading.tail": "с помощью платформы скидок",
-            "text": "Привлекайте новых клиентов, возвращайте текущих и управляйте скидками без лишней бюрократии",
-            "btn1": "Подключить бизнес",
-            "btn2": "Подробнее о продукте"
-        },
-        "features": [
-            {
-                "title": "Рост выручки",
-                "desc": "Платформа помогает увеличить поток клиентов и средний чек",
-                "icon": "IncomeIcon",
-                "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
-            },
-            {
-                "title": "Моментальный запуск",
-                "desc": "Без интеграций и сложных настроек — заведение появляется за 1 день",
-                "icon": "RocketIcon",
-                "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-2.png)] bg-contain bg-no-repeat bg-top-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-            },
-            {
-                "title": "Без лишних расходов",
-                "desc": "Вы сами задаёте параметры скидок — никаких переплат и скрытых комиссий",
-                "icon": "CoinsShieldIcon",
-                "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-            },
-            {
-                "title": "Гибкий контроль",
-                "desc": "Управляйте акциями в личном кабинете: настраивайте гео, время и категории",
-                "icon": "RemoteControlIcon",
-                "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-3.png)] bg-contain bg-no-repeat bg-bottom-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-            },
-            {
-                "title": "Аналитика в реальном времени",
-                "desc": "Следите за результатами: количество сканирований, охват и многое другое",
-                "icon": "AnaliticsIcon",
-                "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-            },
-            {
-                "title": "Поддержка 24/7",
-                "desc": "Команда всегда на связи и помогает быстро решать любые вопросы",
-                "icon": "HeadsetIcon",
-                "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-            }
-        ],
-        "screens": {
-            "title.part1": "Как выглядит",
-            "title.part2": "продукт"
-        },
-        "trust": {
-            "title_left": "Нам доверяют ведущие компании Узбекистана —",
-            "title_right": " в различных отраслях",
-            "description": "более 200 успешных внедрений",
-            "paragraph": "Мы помогаем бизнесу расти, а клиентам — возвращаться снова."
-        },
-        "cases": {
-            "heading.text": "Помогаем ",
-            "heading.subtext": "сотням заведений вырасти",
-            "blurb": "С нами бизнесы увеличивают поток клиентов, поднимают средний чек и получают стабильную отдачу от лояльности",
-            "items": [
-                {
-                    "titleLine1": "Сеть кофеен",
-                    "titleLine2": "«B&B Coffee Misto»",
-                    "subtitle": "Подключили гео-акции и акцию на утренние часы",
-                    "kpis": [
-                        {
-                            "value": "+15%",
-                            "caption": "рост трафика в будние дни"
-                        },
-                        {
-                            "value": "+30%",
-                            "caption": "загрузка в часы простоя"
-                        }
-                    ],
-                    "image": "/images/BB.webp"
-                },
-                {
-                    "titleLine1": "Кондитерская",
-                    "titleLine2": "«Safia»",
-                    "subtitle": "Запустили программу лояльности через приложение",
-                    "kpis": [
-                        {
-                            "value": "+23%",
-                            "caption": "рост числа новых клиентов"
-                        },
-                        {
-                            "value": "+18%",
-                            "caption": "увеличение среднего чека"
-                        }
-                    ],
-                    "image": "/images/safia.webp"
-                },
-                {
-                    "titleLine1": "Аптека",
-                    "titleLine2": "«Arzon Apteka»",
-                    "subtitle": "Ввели скидки и бонусы для постоянных покупателей",
-                    "kpis": [
-                        {
-                            "value": "+16%",
-                            "caption": "рост числа новых клиентов"
-                        },
-                        {
-                            "value": "+23%",
-                            "caption": "увеличение среднего чека"
-                        }
-                    ],
-                    "image": "/images/doctor.webp"
-                }
-            ]
-        },
-        "clientsHeading": "Клиенты",
-        "modal": {
-            "successTitle": "Заявка отправлена",
-            "successDesc": "Спасибо! Мы свяжемся с вами в ближайшее время.",
-            "close": "Закрыть"
-        }
-    },
-    "formSection": {
-        "left": {
-            "heading_text": "Хотите увидеть, как это",
-            "heading_subtext": " работает изнутри?",
-            "description": "Получите подробную презентацию с примерами, тарифами и пошаговой схемой подключения для юридических лиц",
-            "button": "Скачать презентацию"
-        },
-        "right": {
-            "heading_text": "Дайте вашему бизнесу ещё одну ",
-            "heading_subtext": "возможность на рост",
-            "description": "Оставьте заявку, и мы расскажем, как за пару дней подключиться к платформе и начать получать больше клиентов"
-        }
-    },
-    "connectBusinessForm": {
-        "title": "Оставьте заявку",
-        "placeholders": {
-            "name": "ФИО",
-            "company": "Название вашей компании",
-            "phone": "+998 (__) ___-__-__",
-            "comment": "Комментарий (необязательно)"
-        },
-        "errors": {
-            "title": "Ошибка отправки",
-            "generic": "Произошла ошибка. Попробуйте позже.",
-            "send_failed": "Не удалось отправить заявку",
-            "network": "Сетевая ошибка. Проверьте соединение.",
-            "required": "Заполните поле",
-            "name_min": "Введите не короче 2 символов",
-            "company_min": "Введите не короче 2 символов",
-            "phone_invalid": "Некорректный номер",
-            "comment_max": "Максимум 500 символов"
-        },
-        "agree": {
-            "label_prefix": "Соглашаюсь с",
-            "policy_link": "политикой в отношении обработки персональных данных"
-        },
-        "submit": "Отправить заявку",
-        "validation": {
-            "name_min": "Введите не короче 2 символов",
-            "name_required": "Заполните поле",
-            "company_min": "Введите не короче 2 символов",
-            "company_required": "Заполните поле",
-            "phone_required": "Заполните поле",
-            "phone_invalid": "Некорректный номер",
-            "comment_max": "Максимум 500 символов",
-            "agree_required": "Подтвердите согласие"
-        }
-    },
+
     "aboutPlatform": {
-        "hero": {
-            "heading": {
-                "part1": "Умная платформа скидок, которая",
-                "part2": " работает на результат"
-            },
-            "text": "Мы объединили удобство для пользователей и выгоду для бизнеса. Сотни компаний уже автоматизировали управление скидками, увеличили выручку и стали ближе к своим клиентам",
-            "btn1": "Оставить заявку",
-            "btn2": "Обратный звонок"
+    "hero": {
+        "heading": {
+        "part1": "Проект установки автоматизированного",
+        "highlight": "минимаркета",
+        "part2": "в вашем помещении"
         },
-        "tasks": {
-            "title": {
-                "part1": "Какие задачи ",
-                "part2": "мы решаем"
-            },
-            "features": [
-                {
-                    "title": "Повышение комфорта пространства",
-                    "desc": "Минимаркет делает помещение удобнее для сотрудников, клиентов и гостей.",
-                    "icon": "LuBuilding",
-                    "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
-                },
-                {
-                    "title": "Быстрая установка",
-                    "desc": "Запуск занимает минимум времени — требуется только место и подключение к сети 220В.",
-                    "icon": "LuZap",
-                    "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-2.png)] bg-contain bg-no-repeat bg-top-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-                },
-                {
-                    "title": "Без дополнительных затрат",
-                    "desc": "Установка и обслуживание происходят без финансовой нагрузки для арендодателя.",
-                    "icon": "LuBadgeDollarSign",
-                    "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-                },
-                {
-                    "title": "Закрытие потребностей посетителей",
-                    "desc": "Снеки, напитки, вода и готовые продукты всегда доступны на месте.",
-                    "icon": "GiChocolateBar",
-                    "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-3.png)] bg-contain bg-no-repeat bg-bottom-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-                },
-                {
-                    "title": "Автономная работа",
-                    "desc": "Минимаркет функционирует 24/7 без участия персонала со стороны арендодателя.",
-                    "icon": "LuBot",
-                    "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-                },
-                {
-                    "title": "Регулярное обслуживание",
-                    "desc": "Пополнение и контроль выполняются нашей командой 1–2 раза в неделю.",
-                    "icon": "LuSettings",
-                    "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-                }
-            ]
+        "text": "Автономный минимаркет с напитками, снеками и готовой едой, работающий 24/7 без персонала и обеспечивающий быструю и удобную оплату.",
+        "btn1": "Оставить заявку",
+        "btn2": "Позвонить",
+        "phoneHref": "tel:+998901234567"
+    },
+
+    "sections": {
+        "features": {
+        "title": "Возможности",
+        "subtext": "минимаркета"
+      }
+    },
+
+    "tasks": {
+      "title": {
+        "part1": "Какие задачи ",
+        "part2": "мы решаем"
+      },
+      "features": [
+        {
+          "title": "Повышение комфорта пространства",
+          "desc": "Минимаркет делает помещение удобнее для сотрудников, клиентов и гостей.",
+          "icon": "LuBuilding",
+          "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
         },
-        "helpGrow": {
-            "title": {
-                "part1": "Что требуется от",
-                "part2": "арендодателя"
-            },
-            "imageCard": {
-                "image": "/images/Artboard.svg"
-            },
-            "cards": [
-                {
-                    "value": "+27%",
-                    "label": "новых клиентов",
-                    "desc": "Просто покажите QR-код на кассе и сразу получите свою скидку",
-                    "icon": "/assets/free-icon-font-user-bag.svg"
-                },
-                {
-                    "value": "-40%",
-                    "label": "затрат на маркетинг",
-                    "desc": "Заменяем печатные материалы и таргет без результата на эффективные каналы",
-                    "icon": "/assets/free-icon-font-megaphone.svg"
-                },
-                {
-                    "value": "+19%",
-                    "label": "возвратов клиентов",
-                    "desc": "Пользователи возвращаются, чтобы снова воспользоваться выгодной акцией",
-                    "icon": "/assets/free-icon-font-house-return.svg"
-                },
-                {
-                    "value": "+15%",
-                    "label": "средний чек",
-                    "desc": "Акции стимулируют заказывать больше или выбирать более дорогие позиции",
-                    "icon": "/assets/fluent_savings-32-filled.svg"
-                }
-            ]
+        {
+          "title": "Быстрая установка",
+          "desc": "Запуск занимает минимум времени — требуется только место и подключение к сети 220В.",
+          "icon": "LuZap",
+          "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-2.png)] bg-contain bg-no-repeat bg-top-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
         },
-        "howItWorks": {
-            "title": {
-                "part1": "Как это ",
-                "part2": "работает"
-            },
-            "leftLabel": "Управление платформой",
-            "rightLabel": "Мониторинг и аналитика",
-            "leftBullets": [
-                "Информация о заведениях и филиалах",
-                "Типы предложений и скидок",
-                "Гибкая сегментация",
-                "Интеграция с системой учёта"
-            ],
-            "rightBullets": [
-                "Отчёты по эффективности акций",
-                "Количество использований скидок",
-                "Средний чек по клиентам",
-                "Оценка конверсии по каждому заведению"
-            ]
+        {
+          "title": "Без дополнительных затрат",
+          "desc": "Установка и обслуживание происходят без финансовой нагрузки для арендодателя.",
+          "icon": "LuBadgeDollarSign",
+          "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
+        },
+        {
+          "title": "Закрытие потребностей посетителей",
+          "desc": "Снеки, напитки, вода и готовые продукты всегда доступны на месте.",
+          "icon": "GiChocolateBar",
+          "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-3.png)] bg-contain bg-no-repeat bg-bottom-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
+        },
+        {
+          "title": "Автономная работа",
+          "desc": "Минимаркет функционирует 24/7 без участия персонала со стороны арендодателя.",
+          "icon": "LuBot",
+          "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
+        },
+        {
+          "title": "Регулярное обслуживание",
+          "desc": "Пополнение и контроль выполняются нашей командой 1–2 раза в неделю.",
+          "icon": "LuSettings",
+          "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
         }
+      ]
+    },
+
+    "helpGrow": {
+      "title": {
+        "part1": "Что требуется от",
+        "part2": "арендодателя"
+      }
+    },
+
+    "requirements": {
+      "items": [
+        {
+          "value": "1 м²",
+          "label": "Небольшая площадь"
+        },
+        {
+          "value": "220 В",
+          "label": "Электропитание",
+          "notePrefix": "Потребление в месяц до ",
+          "noteValue": "XXX Вт"
+        },
+        {
+          "value": "1–2 раза",
+          "label": "Доступ для обслуживания в неделю"
+        }
+      ]
+    },
+
+    "profit": {
+      "title": "Почему это",
+      "subtext": "выгодно?",
+      "cards": [
+        {
+          "title": "Минимаркет делает пространство современным, удобным и технологичным.",
+          "desc": "Повышает комфорт для сотрудников, гостей и клиентов, создавая дополнительную ценность вашего помещения.",
+          "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:scale-[1.025] duration-300 hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
+        },
+        {
+          "title": "Формирует позитивный клиентский опыт и усиливает имидж локации.",
+          "desc": "Посетители получают быстрый доступ к напиткам и снекам, а пространство становится более привлекательным и современным.",
+          "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] bg-[url(\"/public/images/bg-2.png\")] bg-no-repeat bg-right-top hover:scale-[1.025] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
+        },
+        {
+          "title": "Работает полностью автономно и не требует участия арендодателя.",
+          "desc": "Мы берём на себя установку, пополнение и обслуживание — вы получаете удобство без дополнительных задач.",
+          "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:scale-[1.025] duration-300 hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
+        }
+      ]
     }
+  }
 }
