@@ -5,327 +5,151 @@
         "about": "Platforma haqida",
         "contacts": "Aloqa",
         "profile": "Profil",
-        "comingSoon": {
-            "title": "Tez orada",
-            "description": "Ushbu bo'lim ishlab chiqilmoqda. Biz ustida ishlayapmiz!"
-        },
         "common": {
             "ok": "Tushunarli",
             "close": "Yopish"
         }
     },
-    "blockWindow": {
-        "heading": {
-            "part1": "Tejam qiling",
-            "part2": "har bir tashrifda"
-        },
-        "headingSuffix": "kafelarga va do'konlarga",
-        "text": "Sevimli joylaringizda kuponlarsiz va bitta ilovada 50% gacha chegirmalar oling",
-        "btn1": "Tejashni boshlash",
-        "btn2": "Batafsil"
-    },
-    "cards": {
-        "discounts": {
-            "title": "gacha",
-            "description": "Yaqqol atrofdagi chegirmalar — barcha takliflar bir joyda qulay lentada",
-            "button": "Yagona chegirmalar lentasi"
-        },
-        "instant": {
-            "title": "soniya",
-            "description": "Kassada QR-kodni ko‘rsating va darhol chegirmangizni oling",
-            "button": "Darhol chegirma olish"
-        },
-        "personal": {
-            "description1": "Sizga yaqin joylardagi kundalik takliflar",
-            "description2": "Xizmat siz uchun eng dolzarb takliflarni tanlaydi: afzalliklaringiz, tashrif tarixi va joriy joylashuvingiz hisobga olinadi",
-            "button": "Shaxsiy takliflar"
-        },
-        "saving": {
-            "title": "<span class='text-[56px] text-[#1C1917]'>550 ming</span>",
-            "description": "Foydalanuvchilar o‘rtacha oyiga kassada QR-kodni ko‘rsatib shuncha mablag‘ tejashadi"
-        }
-    },
-    "screens": {
-        "title.part1": "Ilova qanday ko'rinadi",
-        "title.part2": " "
-    },
-    "textIcons": [
-        "Aqlli aksiyalar to‘plami",
-        "Kupon va kodlarsiz",
-        "Geotargeting chegirmalar",
-        "Shaxsiy takliflar",
-        "Yangi aksiyalar haqida bildirishnomalar"
-    ],
-    "pricing": "Oyiga atigi 63 000 so‘m",
-    "businessSwiper": {
-        "title_right": "O‘zbekiston bo‘ylab foydali takliflar bilan",
-        "description": "200 dan ortiq nuqta",
-        "paragraph": {
-            "part1": "Ilovada har kuni yuzlab aksiyalarni topasiz: kichik qulay qahvaxonalar va mahalliy nonvoyxonalardan tortib yirik restoran va do‘kon tarmoqlarigacha.",
-            "part2": "Ertaga qoldirmang — bugun tejashni boshlang!"
-        },
-        "items": [
-            {
-                "title": "Safia Cafe & Bakery",
-                "category": "Qandolatxonа",
-                "image": "/images/safia.webp"
-            },
-            {
-                "title": "Chekhov sport club",
-                "category": "Sport",
-                "image": "/images/sport.webp"
-            },
-            {
-                "title": "Arzon Apteka",
-                "category": "Dorixona",
-                "image": "/images/doctor.webp"
-            },
-            {
-                "title": "Bloom Cosmetics",
-                "category": "Kosmetika do‘koni",
-                "image": "/images/bloom.webp"
-            }
-        ]
-    },
-    "heading": {
-        "oneStep": {
-            "text": "Bitta qadam",
-            "subtext": " yuzlab aksiyalargacha",
-            "description": "Sevimli joylaringizda har kuni chegirmalar olishning oddiy va qulay usuli. Barcha kerakli narsa — ilovani o‘rnatish"
-        }
-    },
-    "faq": {
-        "heading": {
-            "text": "Biz javob beramiz ",
-            "subtext": "ko‘p beriladigan savollarga"
-        },
-        "items": [
-            {
-                "question": "Obuna qancha turadi va sinov muddati qanday ishlaydi?",
-                "answer": "Obuna narxi tanlangan tarifga bog‘liq. Bizda moslashuvchan rejalarga ega — bazaviydan premiumgacha. Sinov muddati 7 kun davom etadi va barcha funksiyalardan cheklovsiz foydalanish imkonini beradi."
-            },
-            {
-                "question": "Obunani qanday bekor qilish mumkin?",
-                "answer": "Shaxsiy kabinetdagi «Obunani boshqarish» bo‘limiga o‘ting, «Obunani bekor qilish» tugmasini bosing va amalni tasdiqlang. Obuna to‘langan davr oxirigacha faol bo‘ladi, shundan so‘ng avtomatik to‘lov o‘chiriladi."
-            },
-            {
-                "question": "Qaysi to‘lov usullarini qo‘llab-quvvatlaysiz?",
-                "answer": "Biz Visa, UzCard va Humo kartalari orqali, shuningdek Click va PayMe ilovalari yordamida to‘lovni qabul qilamiz."
-            },
-            {
-                "question": "Texnik muammolar yuzaga kelsa, qayerga murojaat qilish mumkin?",
-                "answer": "Shaxsiy kabinetdagi aloqa formasidan foydalanishingiz yoki support@example.com manziliga xat yuborishingiz mumkin. Biz 24 soat ichida javob beramiz."
-            },
-            {
-                "question": "Agar bank kartasini bog‘lashni istamasam, nima qilishim kerak?",
-                "answer": "Siz Click va PayMe xizmatlaridan foydalanishingiz mumkin."
-            }
-        ]
-    },
-    "footerForm": {
-        "description": "Agar javob topilmagan savollar qolsa — kontaktlaringizni qoldiring, mutaxassislarimiz sizga yordam berishadi",
-        "button": "Savol berish"
-    },
     "modal": {
-        "successTitle": "So‘rov yuborildi",
+        "successTitle": "Ariza yuborildi",
         "successDesc": "Rahmat! Tez orada siz bilan bog‘lanamiz.",
-        "closeBtn": "Yopish"
+        "close": "Yopish"
     },
-    "buttons": [
-        "Restoranlar",
-        "Qahvaxonalar",
-        "Elektronika",
-        "Dorixonalar",
-        "Kosmetika",
-        "Kiyim va oyoq kiyim",
-        "Sport buyumlari",
-        "Bolalar mahsulotlari",
-        "Mahsulotlar"
-    ],
-    "footer": {
-        "title": "Navigatsiya"
-    },
-    "social": {
-        "title": "Ijtimoiy tarmoqlar"
-    },
-    "contacts": {
-        "title": "Kontaktlar"
-    },
-    "bottom": {
-        "rights": "© 2025 Barcha huquqlar himoyalangan",
-        "policy": "Maxfiylik siyosati",
-        "developed": "Designed and Developed by Cooming Soon"
-    },
-    "policy": {
-        "title": "Maxfiylik",
-        "subtitle": "siyosati",
-        "content": [
-            "Ushbu Maxfiylik siyosati Discount App ilovasi foydalanuvchilarining shaxsiy ma’lumotlarini yig‘ish, ishlatish, saqlash va himoya qilish tartibini belgilaydi.",
-            "Biz faqat xizmatni taqdim etish va yaxshilash uchun zarur bo‘lgan ma’lumotlarni yig‘amiz, jumladan ism, aloqa ma’lumotlari, buyurtmalar va afzalliklar haqidagi ma’lumotlar.",
-            "Shaxsiy ma’lumotlar faqat xizmat ko‘rsatish, so‘rovlarni qayta ishlash, chegirmalar va aksiyalar taqdim etish, hamda xizmat sifatini oshirish uchun ishlatiladi.",
-            "Biz shaxsiy ma’lumotlarni uchinchi shaxslarga bermaymiz, bundan faqat qonunchilik talab qilgan yoki foydalanuvchi oldidagi majburiyatlarni bajarish zarur bo‘lgan holatlar mustasno.",
-            "Foydalanuvchi istalgan vaqtda o‘z shaxsiy ma’lumotlarini o‘chirishni so‘rab, qo‘llab-quvvatlash xizmatining elektron pochtasiga murojaat qilishi mumkin.",
-            "Ilovamizdan foydalanish orqali siz ushbu Maxfiylik siyosati shartlariga rozilik bildirasiz."
-        ]
-    },
-    "forPartners": {
+
+    "aboutPlatform": {
         "hero": {
-            "heading.part1": "Sotuvlar va sodiqlikni",
-            "heading.part2": "oshiring",
-            "heading.tail": "chegirmalar platformasi yordamida",
-            "text": "Yangi mijozlarni jalb qiling, mavjud mijozlarni qaytaring va chegirmalarni byurokratiyasiz boshqaring",
-            "btn1": "Biznesni ulash",
-            "btn2": "Mahsulot haqida batafsil"
+        "heading": {
+            "part1": "Binongizda",
+            "highlight": "avtomatlashtirilgan minimarket",
+            "part2": "o‘rnatish loyihasi"
+        },
+        "text": "Ichimliklar, gazaklar va tayyor ovqatlar bilan 24/7 ishlaydigan, xodimlarsiz avtonom minimarket. Tez va qulay to‘lov imkoniyati.",
+        "btn1": "Ariza qoldirish",
+        "btn2": "Qo‘ng‘iroq qilish",
+        "phoneHref": "tel:+998901234567"
+        },
+
+        "sections": {
+        "features": {
+            "title": "Imkoniyatlar",
+            "subtext": "minimarket"
+        }
+        },
+
+        "tasks": {
+        "title": {
+            "part1": "Qaysi vazifalarni ",
+            "part2": "hal qilamiz"
         },
         "features": [
             {
-                "title": "Daromad o‘sishi",
-                "desc": "Platforma mijozlar oqimi va o‘rtacha chekni oshirishga yordam beradi",
-                "icon": "IncomeIcon",
-                "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:bg-[#ECF7FE] hover:color-[#0088E7] rounded-2xl p-6 "
+            "title": "Makonga qulaylik qo‘shish",
+            "desc": "Minimarket xodimlar, mijozlar va mehmonlar uchun joyni yanada qulay qiladi.",
+            "icon": "LuBuilding",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
             },
             {
-                "title": "Zudlik bilan ishga tushirish",
-                "desc": "Integratsiyasiz va murakkab sozlamalarsiz — muassasa 1 kunda qo‘shiladi",
-                "icon": "RocketIcon",
-                "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-2.png)] bg-contain bg-no-repeat bg-top-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#0088E7] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
+            "title": "Tez o‘rnatish",
+            "desc": "Ishga tushirish minimal vaqt oladi — faqat joy va 220V tarmoqqa ulanish kifoya.",
+            "icon": "LuZap",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-2.png)] bg-contain bg-no-repeat bg-top-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
             },
             {
-                "title": "Ortiqcha xarajatlarsiz",
-                "desc": "Chegirmalar parametrlarini o‘zingiz belgilaysiz — ortiqcha to‘lov va yashirin komissiyalar yo‘q",
-                "icon": "CoinsShieldIcon",
-                "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#0088E7] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
+            "title": "Qo‘shimcha xarajatsiz",
+            "desc": "O‘rnatish va xizmat ko‘rsatish ijaraga beruvchi uchun qo‘shimcha moliyaviy yuk bo‘lmaydi.",
+            "icon": "LuBadgeDollarSign",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
             },
             {
-                "title": "Moslashuvchan boshqaruv",
-                "desc": "Shaxsiy kabinetda aksiyalarni boshqaring: joylashuv, vaqt va toifalarni sozlang",
-                "icon": "RemoteControlIcon",
-                "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-3.png)] bg-contain bg-no-repeat bg-bottom-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#0088E7] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
+            "title": "Tashrif buyuruvchilar ehtiyojini qoplash",
+            "desc": "Gazaklar, ichimliklar, suv va tayyor mahsulotlar doim shu yerning o‘zida mavjud.",
+            "icon": "GiChocolateBar",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-3.png)] bg-contain bg-no-repeat bg-bottom-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
             },
             {
-                "title": "Real vaqt tahlili",
-                "desc": "Natijalarni kuzating: skanlar soni, qamrov va boshqalar",
-                "icon": "AnaliticsIcon",
-                "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#0088E7] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
+            "title": "Avtonom ishlash",
+            "desc": "Minimarket 24/7 ishlaydi va ijaraga beruvchi tomondan xodimlar ishtirokini talab qilmaydi.",
+            "icon": "LuBot",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
             },
             {
-                "title": "24/7 qo‘llab-quvvatlash",
-                "desc": "Jamoa doimo aloqada va har qanday savolga tez yordam beradi",
-                "icon": "HeadsetIcon",
-                "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#0088E7] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
+            "title": "Muntazam servis",
+            "desc": "To‘ldirish va nazoratni jamoamiz haftasiga 1–2 marta amalga oshiradi.",
+            "icon": "LuSettings",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
             }
-        ],
-        "screens": {
-            "title.part1": "Mahsulot qanday ko‘rinadi",
-            "title.part2": ""
+        ]
         },
-        "trust": {
-            "title_left": "Bizga O‘zbekistonning yetakchi kompaniyalari ishonadi —",
-            "title_right": "turli sohalarda",
-            "description": "200 dan ortiq muvaffaqiyatli joriy etish",
-            "paragraph": "Biznesga o‘sishga yordam beramiz, mijozlar esa yana qaytib kelishadi"
-        },
-        "cases": {
-            "heading.text": "Biz yordam beramiz ",
-            "heading.subtext": "yuzlab muassasalarga o‘sish uchun",
-            "blurb": "Biz bilan bizneslar mijozlar oqimini oshiradi, o‘rtacha chekni ko‘taradi va sodiqlikdan barqaror foyda oladi",
-            "items": [
-                {
-                    "titleLine1": "Qahvaxonalar tarmog‘i",
-                    "titleLine2": "«B&B Coffee Misto»",
-                    "subtitle": "Geo-aksiyalar va ertalabki aksiyani ishga tushirdik",
-                    "kpis": [
-                        {
-                            "value": "+15%",
-                            "caption": "ish kunlarida trafik o‘sishi"
-                        },
-                        {
-                            "value": "+30%",
-                            "caption": "bo‘sh vaqtlar yuklanishi"
-                        }
-                    ],
-                    "image": "/images/BB.webp"
-                },
-                {
-                    "titleLine1": "Qandolatxona",
-                    "titleLine2": "«Safia»",
-                    "subtitle": "Ilova orqali sodiqlik dasturini ishga tushirdik",
-                    "kpis": [
-                        {
-                            "value": "+23%",
-                            "caption": "yangi mijozlar soni o‘sishi"
-                        },
-                        {
-                            "value": "+18%",
-                            "caption": "o‘rtacha chek oshishi"
-                        }
-                    ],
-                    "image": "/images/safia.webp"
-                },
-                {
-                    "titleLine1": "Dorixona",
-                    "titleLine2": "«Arzon Apteka»",
-                    "subtitle": "Doimiy xaridorlar uchun chegirma va bonuslar joriy etildi",
-                    "kpis": [
-                        {
-                            "value": "+16%",
-                            "caption": "yangi mijozlar soni o‘sishi"
-                        },
-                        {
-                            "value": "+23%",
-                            "caption": "o‘rtacha chek oshishi"
-                        }
-                    ],
-                    "image": "/images/doctor.webp"
-                }
-            ]
-        },
-        "clientsHeading": "Mijozlar",
-        "modal": {
-            "successTitle": "Ariza yuborildi",
-            "successDesc": "Rahmat! Tez orada siz bilan bog‘lanamiz.",
-            "close": "Yopish"
+
+        "helpGrow": {
+        "title": {
+            "part1": "Ijaraga beruvchidan",
+            "part2": "nima talab qilinadi"
         }
-    },
-    "formSection": {
-        "left": {
-            "heading_text": "Buni qanday ishlashini ko‘rishni xohlaysizmi",
-            "heading_subtext": "ichkaridan?",
-            "description": "Yuridik shaxslar uchun misollar, tariflar va bosqichma-bosqich ulanish sxemasi bilan batafsil taqdimotni oling",
-            "button": "Taqdimotni yuklab olish"
         },
-        "right": {
-            "heading_text": "Biznesingizga yana bir ",
-            "heading_subtext": "o‘sish imkoniyatini bering",
-            "description": "Ariza qoldiring, va biz sizga platformaga bir necha kun ichida qanday ulanish va ko‘proq mijoz jalb qilish mumkinligini aytib beramiz",
-            "modal": {
-                "title": "Ariza yuborildi",
-                "description": "Rahmat! Tez orada siz bilan bog‘lanamiz.",
-                "close_button": "Yopish"
+
+        "requirements": {
+        "items": [
+            {
+            "value": "1 m²",
+            "label": "Kichik joy"
+            },
+            {
+            "value": "220 V",
+            "label": "Elektr ta’minoti",
+            "notePrefix": "Oyiga iste’mol: ",
+            "noteValue": "XXX Vt gacha"
+            },
+            {
+            "value": "Haftasiga 1–2 marta",
+            "label": "Xizmat ko‘rsatish uchun kirish"
             }
+        ]
+        },
+
+        "profit": {
+        "title": "Nega bu",
+        "subtext": "foydali?",
+        "cards": [
+            {
+            "title": "Minimarket makonni zamonaviy, qulay va texnologik qiladi.",
+            "desc": "Xodimlar, mehmonlar va mijozlar uchun qulaylikni oshiradi hamda binoingizga qo‘shimcha qiymat beradi.",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:scale-[1.025] duration-300 hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
+            },
+            {
+            "title": "Ijobiy mijoz tajribasini shakllantiradi va joy imidjini kuchaytiradi.",
+            "desc": "Tashrif buyuruvchilar ichimlik va gazaklarni tez oladi, makon esa yanada jozibador va zamonaviy ko‘rinadi.",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] bg-[url(\"/public/images/bg-2.png\")] bg-no-repeat bg-right-top hover:scale-[1.025] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
+            },
+            {
+            "title": "To‘liq avtonom ishlaydi va ijaraga beruvchining ishtirokini talab qilmaydi.",
+            "desc": "O‘rnatish, to‘ldirish va servisni biz bajarib beramiz — siz esa qo‘shimcha vazifalarsiz qulaylikka ega bo‘lasiz.",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:scale-[1.025] duration-300 hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
+            }
+        ]
         }
     },
     "connectBusinessForm": {
         "title": "Ariza qoldiring",
         "placeholders": {
-            "name": "Ism va familiya",
-            "company": "Kompaniya nomi",
+            "name": "F.I.Sh.",
+            "company": "Kompaniyangiz nomi",
             "phone": "+998 (__) ___-__-__",
-            "comment": "Izoh (majburiy emas)"
+            "comment": "Izoh (ixtiyoriy)"
         },
         "errors": {
             "title": "Yuborishda xatolik",
             "generic": "Xatolik yuz berdi. Keyinroq urinib ko‘ring.",
             "send_failed": "Arizani yuborib bo‘lmadi",
-            "network": "Tarmoq xatosi. Ulanishni tekshiring.",
+            "network": "Tarmoq xatosi. Internet aloqasini tekshiring.",
             "required": "Maydonni to‘ldiring",
             "name_min": "Kamida 2 ta belgi kiriting",
             "company_min": "Kamida 2 ta belgi kiriting",
-            "phone_invalid": "Noto‘g‘ri raqam",
-            "comment_max": "Maksimal 500 ta belgi"
+            "phone_invalid": "Noto‘g‘ri telefon raqami",
+            "comment_max": "Maksimum 500 ta belgi"
         },
         "agree": {
-            "label_prefix": "Quyidagiga roziman",
+            "label_prefix": "Men",
             "policy_link": "shaxsiy ma’lumotlarni qayta ishlash siyosati"
         },
         "submit": "Arizani yuborish",
@@ -335,119 +159,151 @@
             "company_min": "Kamida 2 ta belgi kiriting",
             "company_required": "Maydonni to‘ldiring",
             "phone_required": "Maydonni to‘ldiring",
-            "phone_invalid": "Noto‘g‘ri raqam",
-            "comment_max": "Maksimal 500 ta belgi",
+            "phone_invalid": "Noto‘g‘ri telefon raqami",
+            "comment_max": "Maksimum 500 ta belgi",
             "agree_required": "Rozilikni tasdiqlang"
         }
     },
-    "aboutPlatform": {
-        "hero": {
-            "heading": {
-                "part1": "Natijaga yo‘naltirilgan",
-                "part2": " aqlli chegirmalar platformasi"
-            },
-            "text": "Foydalanuvchilar qulayligi va biznes foydasini birlashtirdik. Yuzlab kompaniyalar chegirmalarni boshqarishni avtomatlashtirdi, tushumini oshirdi va mijozlariga yanada yaqinlashdi.",
-            "btn1": "Biznesni ulash",
-            "btn2": "Qayta qo‘ng‘iroq"
+    "bottom": {
+        "rights": "© 2025 Barcha huquqlar himoyalangan",
+        "policy": "Maxfiylik siyosati",
+        "developed": "Ekaterina tomonidan ishlab chiqilgan"
         },
-        "tasks": {
-            "title": {
-                "part1": "Qaysi vazifalarni ",
-                "part2": "hal qilamiz"
-            },
-            "features": [
-                {
-                    "title": "Tushumning o‘sishi",
-                    "desc": "Platforma mijozlar oqimi va o‘rtacha chekni oshirishga yordam beradi",
-                    "icon": "MagnetIcon",
-                    "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:bg-[#ECF7FE] hover:color-[#0088E7] rounded-2xl p-6 "
-                },
-                {
-                    "title": "Zudlik bilan ishga tushirish",
-                    "desc": "Integratsiya va murakkab sozlamalarsiz — muassasa 1 kunda qo‘shiladi",
-                    "icon": "ReviewIcon",
-                    "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-2.png)] bg-contain bg-no-repeat bg-top-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#0088E7] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-                },
-                {
-                    "title": "Ortiqcha xarajatlarsiz",
-                    "desc": "Chegirma parametrlarini o‘zingiz belgilaysiz — ortiqcha to‘lovlar va yashirin komissiyalar yo‘q",
-                    "icon": "CloudGearIcon",
-                    "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#0088E7] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-                },
-                {
-                    "title": "Moslashuvchan boshqaruv",
-                    "desc": "Shaxsiy kabinetda aksiyalarni boshqaring: geo, vaqt va toifalarni sozlang",
-                    "icon": "QueueIcon",
-                    "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-3.png)] bg-contain bg-no-repeat bg-bottom-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#0088E7] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-                },
-                {
-                    "title": "Haqiqiy vaqt rejimida tahlil",
-                    "desc": "Natijalarni kuzating: skanlar soni, охват va boshqalar",
-                    "icon": "MapMarkerIcon",
-                    "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#0088E7] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-                },
-                {
-                    "title": "24/7 qo‘llab-quvvatlash",
-                    "desc": "Jamoa doimo aloqada va savollaringizga tez yordam beradi",
-                    "icon": "ClockUpIcon",
-                    "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#0088E7] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-                }
-            ]
+        "policy": {
+        "title": "Maxfiylik",
+        "subtitle": "siyosati",
+        "content": [
+            "Ushbu Maxfiylik siyosati MicroMarket.uz sayti foydalanuvchilarining shaxsiy ma’lumotlarini yig‘ish, ulardan foydalanish, saqlash va himoya qilish tartibini belgilaydi.",
+            "Biz faqat xizmatni taqdim etish va yaxshilash uchun zarur bo‘lgan ma’lumotlarni yig‘amiz, jumladan ism, aloqa ma’lumotlari, buyurtmalar va foydalanuvchi afzalliklari haqidagi ma’lumotlar.",
+            "Shaxsiy ma’lumotlar faqat xizmat ko‘rsatish, so‘rovlarni qayta ishlash, chegirmalar va aksiyalarni taqdim etish, shuningdek xizmat sifatini yaxshilash maqsadida ishlatiladi.",
+            "Biz shaxsiy ma’lumotlarni uchinchi shaxslarga bermaymiz, qonunchilikda nazarda tutilgan yoki foydalanuvchi oldidagi majburiyatlarni bajarish uchun zarur bo‘lgan holatlar bundan mustasno.",
+            "Foydalanuvchi istalgan vaqtda qo‘llab-quvvatlash xizmatining elektron pochtasiga murojaat qilib, o‘z shaxsiy ma’lumotlarini o‘chirishni so‘rashi mumkin.",
+            "Ilovamizdan foydalanish orqali siz ushbu Maxfiylik siyosati shartlariga rozilik bildirasiz."
+        ]
+    },
+    "footer": {
+    "contacts": {
+        "title1": "Batafsil ma’lumot olishni xohlaysizmi?",
+        "title2": "Biz bilan bog‘laning"
         },
-        "helpGrow": {
-            "title": {
-                "part1": "Biznesning o‘sishiga ",
-                "part2": "qanday yordam beramiz"
-            },
-            "imageCard": {
-                "image": "/images/Artboard.svg"
-            },
-            "cards": [
-                {
-                    "value": "+27%",
-                    "label": "yangi mijozlar",
-                    "desc": "Kassada QR-kodni ko‘rsating — darhol chegirma oling",
-                    "icon": "/assets/free-icon-font-user-bag.svg"
-                },
-                {
-                    "value": "-40%",
-                    "label": "marketing xarajatlari",
-                    "desc": "Natija bermaydigan bosma material va target o‘rniga samarali kanallarni qo‘llaymiz",
-                    "icon": "/assets/free-icon-font-megaphone.svg"
-                },
-                {
-                    "value": "+19%",
-                    "label": "mijozlar qaytishi",
-                    "desc": "Foydalanuvchilar foydali aksiyalar uchun qaytib kelishadi",
-                    "icon": "/assets/free-icon-font-house-return.svg"
-                },
-                {
-                    "value": "+15%",
-                    "label": "o‘rtacha chek",
-                    "desc": "Aksiyalar ko‘proq buyurtma berish yoki qimmatroq pozitsiyalarni tanlashga undaydi",
-                    "icon": "/assets/fluent_savings-32-filled.svg"
-                }
-            ]
-        },
-        "howItWorks": {
-            "title": {
-                "part1": "Bu qanday ",
-                "part2": "ishlaydi"
-            },
-            "leftLabel": "Platformani boshqarish",
-            "rightLabel": "Monitoring va tahlil",
-            "leftBullets": [
-                "Muassasa va filiallar haqida ma’lumot",
-                "Takliflar va chegirmalar turlari",
-                "Moslashuvchan segmentatsiya",
-                "Hisob tizimi bilan integratsiya"
-            ],
-            "rightBullets": [
-                "Aksiyalar samaradorligi bo‘yicha hisobotlar",
-                "Chegirmalardan foydalanishlar soni",
-                "Mijozlar bo‘yicha o‘rtacha chek",
-                "Har bir muassasa bo‘yicha konversiyani baholash"
-            ]
+        "form": {
+        "title": "Binoyingizga minimarketni ulang",
+        "desc": "Ariza qoldiring — biz siz bilan bog‘lanamiz va avtonom minimarketni tez o‘rnatib, 24/7 xizmatni ishga tushirish haqida ma’lumot beramiz."
         }
-    }
+    },
+    "forPartners": {
+        "hero": {
+            "title_prefix": "O‘zbekistonda kaftingizda joylashgan birinchi texnologik biznes",
+            "title_country": "O‘zbekistonda",
+            "subtitle": "Biznesga kuniga atigi 15 daqiqa ajratib, oyiga 2,5 mln.dan 4,5 mln.gacha daromad oling.",
+            "btn1": "Ariza qoldirish",
+            "btn2": "Mahsulot haqida batafsil"
+        },
+
+        "whyNow": {
+        "title": "Nega",
+        "subtitle": "hozir?",
+        "items": [
+            {
+            "title": "Trend",
+            "desc": "Naqd pulsiz to‘lovlar (Humo/Uzcard) va QR to‘lovlarga odatlanish ortmoqda."
+            },
+            {
+            "title": "Noyoblik",
+            "desc": "O‘zbekistonda mikromarket bozori hali to‘yinmagan."
+            },
+            {
+            "title": "Qulaylik",
+            "desc": "Odamlar navbatsiz tez xarid qilishni xohlaydi."
+            }
+        ]
+        },
+
+        "about": {
+        "title": "Mikromarket",
+        "subtitle": "nima?",
+        "steps": [
+            "mijoz oldi",
+            "skaner qildi",
+            "to‘ladi"
+        ],
+        "advantages": "kassirsiz, katta joy ijarasisiz (faqat 1 kv.m), 24/7 avtomatik ishlash va tez ishga tushirish."
+        },
+        "selfService": {
+        "title": "Bu o‘z-o‘ziga xizmat ko‘rsatish nuqtasi:",
+        "advantages": "Afzalliklari:"
+        },
+
+        "numbers": {
+        "title": "Biznes modeli",
+        "subtitle": "raqamlarda",
+        "avgCheck": "O‘rtacha chek",
+        "transactions": "Kunlik tranzaksiyalar soni",
+        "transactionsHint": "trafik va lokatsiyaga bog‘liq",
+        "rent": "Joy ijarasi (1 kv.m)",
+        "margin": "Rentabellik"
+        },
+
+        "tech": {
+        "title": "Texnologiyalar va",
+        "subtitle": "xavfsizlik",
+        "items": [
+            {
+            "title": "Aqlli dastur",
+            "desc": "Uzcard, Humo, Click va Payme bilan integratsiya. Savdolar avtomatik hisobga olinadi."
+            },
+            {
+            "title": "Shaxsiy kabinet",
+            "desc": "Qoldiq, tushum va muddatlarni real vaqt rejimida nazorat qilish."
+            },
+            {
+            "title": "Antio‘g‘irlik tizimi",
+            "desc": "Har bir xarid videoga olinadi va operatsiyalar jurnali yuritiladi."
+            }
+        ]
+        },
+
+        "places": {
+        "title": "Qayerga joylashtirish mumkin?",
+        "items": [
+            "Biznes markazlar va ofislar",
+            "Turar joy majmualari",
+            "Fitnes markazlar va ta’lim muassasalari",
+            "Ishlab chiqarish va omborlar"
+        ]
+        },
+
+        "timeline": {
+        "title": "Bosqichma-bosqich",
+        "subtitle": "ishga tushirish",
+        "desc": "Shartnomadan birinchi tushumgacha — o‘rtacha 14 kun.",
+        "items": [
+            {
+            "day": "1-kun",
+            "title": "Shartnoma imzolash",
+            "desc": "Shartlar kelishiladi va ishga tushirish tayyorlanadi.",
+            "bullets": [
+                "Uskuna va dasturiy ta’minot",
+                "Tekshirilgan yetkazib beruvchilar ro‘yxati"
+            ]
+            },
+            {
+            "day": "7-kun",
+            "title": "Lokatsiyani tanlash va tahlil",
+            "desc": "Trafik va auditoriya baholanadi.",
+            "bullets": [
+                "Lokatsiya tanlash va tahlil qilish"
+            ]
+            },
+            {
+            "day": "14-kun",
+            "title": "O‘rnatish va birinchi tushum",
+            "desc": "Montaj va savdoni boshlash.",
+            "bullets": [
+                "Marketing va brending yordami"
+            ]
+            }
+        ]
+        }
+    } 
 }

@@ -52,11 +52,9 @@ export const AboutPlatform = () => {
             />
             <Header />
             <BlockWindow
-                heading={<>
-                    Проект установки
-                    автоматизированного  <span className="text-[#1754F1]">минимаркета </span>в вашем помещении
+                heading={<>{t('aboutPlatform.hero.heading.part1')}  <span className="text-[#1754F1]">{t('aboutPlatform.hero.heading.highlight')}</span> {t('aboutPlatform.hero.heading.part2')}
                 </>}
-                text='Автономный минимаркет с напитками, снеками и готовой едой, работающий 24/7 без персонала и обеспечивающий быструю и удобную оплату.'
+                text={t('aboutPlatform.hero.text')}
                 buttonText1={t('aboutPlatform.hero.btn1')}
                 buttonGoTo1={() => setFormOpen(true)}
                 buttonText2={t('aboutPlatform.hero.btn2')} buttonGoTo2={() => {
@@ -66,7 +64,7 @@ export const AboutPlatform = () => {
                 styleClass="bg-cover min-[1160px]:bg-contain bg-right bg-no-repeat"/>
             <div>
                 <div className="px-4 sm:px-6 md:px-8 min-[1060px]:px-10 xl:px-15 2xl:px-25 pt-[clamp(40px,6vw,200px)]">
-                    <Heading text={"Возможности"} level={2} subtext={'минимаркета'} />
+                    <Heading text={t('aboutPlatform.sections.features.title')} level={2} subtext={t('aboutPlatform.sections.features.subtext')} />
                     <div className="pt-14 grid grid-cols-3 max-[1060px]:grid-cols-2 max-[880px]:!flex flex-col gap-7.5">
                         {features.map((f, idx) => (
                             <PercentsCards
@@ -105,7 +103,7 @@ export const AboutPlatform = () => {
                                 }
                                 description={
                                     <div className="flex flex-col gap-10 text-[#6A6A6A] text-lg leading-[130%] font-light">
-                                        <p>Небольшая площадь</p>
+                                        <p>{t('aboutPlatform.requirements.items.0.label')}</p>
                                     </div>
                                 }
                                 CardClass="flex flex-row-reverse flex-1 justify-between"
@@ -123,8 +121,8 @@ export const AboutPlatform = () => {
                                 }
                                 description={
                                     <div className="flex flex-col gap-2 text-[#6A6A6A] text-lg leading-[130%] font-light">
-                                        <p>Электропитание</p>
-                                        <span className="font-extralight text-[#b5b2b2] text-[16px]">Потребление в месяц до <span className="text-[#1754F1]">XXX Вт</span> </span>
+                                        <p>{t('aboutPlatform.requirements.items.1.label')}</p>
+                                        <span className="font-extralight text-[#b5b2b2] text-[16px]">{t('aboutPlatform.requirements.items.1.notePrefix')} <span className="text-[#1754F1]">{t('aboutPlatform.requirements.items.1.noteValue')}</span> </span>
                                     </div>
                                 }
                                 CardClass="flex flex-row-reverse flex-1 justify-between"
@@ -137,12 +135,12 @@ export const AboutPlatform = () => {
                              <PercentsCards
                                 title={
                                     <>
-                                        <span className="text-4xl md:text-5xl lg:text-[56px] text-[#1C1917] text-center leading-[130%]"> 1–2 раза</span>
+                                        <span className="text-4xl md:text-5xl lg:text-[56px] text-[#1C1917] text-center leading-[130%]">{t('aboutPlatform.requirements.items.2.value')}</span>
                                     </>
                                 }
                                 description={
                                     <div className="flex flex-col gap-2 text-[#6A6A6A] text-lg leading-[130%] font-light">
-                                        <p>Доступ для обслуживания в неделю</p>
+                                        <p>{t('aboutPlatform.requirements.items.2.label')}</p>
                                     </div>
                                 }
                                 CardClass="flex flex-row-reverse flex-1 justify-between"
@@ -153,33 +151,33 @@ export const AboutPlatform = () => {
                 
             </div>
             <div className="px-4 sm:px-6 md:px-8 min-[1060px]:px-10 xl:px-15 2xl:px-25 my-[clamp(40px,6vw,200px)]">
-                <Heading text={"Почему это "} level={2} subtext={"выгодно?"} />
+                <Heading text={t('aboutPlatform.profit.title')} level={2} subtext={t('aboutPlatform.profit.subtext')} />
                 <div className="pt-[clamp(32px,_3.5vw,_48px)] grid grid-cols-1 lg:grid-cols-3 gap-6">
                             <PercentsCards
-                                title={<p className="text-[#1C1917] text-2xl font-semibold mb-4">Минимаркет делает пространство современным, удобным и технологичным.</p>}
+                                title={<p className="text-[#1C1917] text-2xl font-semibold mb-4">{t('aboutPlatform.profit.cards.0.title')}</p>}
                                 description={
                                     <div className="flex flex-col gap-10 max-w-95 text-[#6A6A6A] text-lg leading-[130%] font-light">
-                                        <p>Повышает комфорт для сотрудников, гостей и клиентов, создавая дополнительную ценность вашего помещения.</p>
+                                        <p>{t('aboutPlatform.profit.cards.0.desc')}</p>
                                     </div>
                                 }
                                 icon={<RiNumber1 className="text-[#ECF7FE] group-hover:text-[#1754F1] duration-500 w-15 h-15"/>}
                                 CardClass='group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:scale-[1.025] duration-300 hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 '
                             />
                             <PercentsCards
-                                title={<p className="text-[#1C1917] text-2xl font-semibold mb-4">Формирует позитивный клиентский опыт и усиливает имидж локации.</p>}
+                                title={<p className="text-[#1C1917] text-2xl font-semibold mb-4">{t('aboutPlatform.profit.cards.1.title')}</p>}
                                 description={
                                     <div className="flex flex-col gap-10 max-w-95 text-[#6A6A6A] text-lg leading-[130%] font-light">
-                                        <p>Посетители получают быстрый доступ к напиткам и снекам, а пространство становится более привлекательным и современным.</p>
+                                        <p>{t('aboutPlatform.profit.cards.1.desc')}</p>
                                     </div>
                                 }
                                 icon={<RiNumber2  className="text-[#ECF7FE] group-hover:text-[#1754F1] duration-500 w-15 h-15"/>}
                                 CardClass='group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] bg-[url("/public/images/bg-2.png")] bg-no-repeat bg-right-top hover:scale-[1.025] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 '
                             />
                             <PercentsCards
-                                title={<p className="text-[#1C1917] text-2xl font-semibold mb-4">Работает полностью автономно и не требует участия арендодателя.</p>}
+                                title={<p className="text-[#1C1917] text-2xl font-semibold mb-4">{t('aboutPlatform.profit.cards.2.title')}</p>}
                                 description={
                                     <div className="flex flex-col gap-10 max-w-95 text-[#6A6A6A] text-lg leading-[130%] font-light">
-                                        <p>Мы берём на себя установку, пополнение и обслуживание — вы получаете удобство без дополнительных задач.</p>
+                                        <p>{t('aboutPlatform.profit.cards.2.desc')}</p>
                                     </div>
                                 }
                                 icon={<RiNumber3 className="text-[#ECF7FE] group-hover:text-[#1754F1] duration-500 w-15 h-15"/>}

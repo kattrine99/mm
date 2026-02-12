@@ -112,18 +112,18 @@ export const Footer = () => {
         <div className="flex flex-col gap-25">
          <div  className="flex flex-col gap-4">
              <p className="text-[#1C1917] text-[clamp(26px,2.4vw,40px)] leading-[110%] font-semibold">
-            Хотите узнать подробнее?
+            {t("footer.contacts.title1")}
           </p>
 
           <p className="text-[#1754F1] text-[clamp(28px,2.6vw,44px)] leading-[110%] font-semibold">
-            Свяжитесь с нами
+            {t("footer.contacts.title2")}
           </p>
 
          </div>
           <div className="mt-2 flex flex-col gap-5">
             <a
               href="tel:+998555181991"
-              className="flex items-center gap-4 text-[#1C1917] text-xl hover:text-[#1754F1] transition"
+              className="flex items-center gap-4 text-[#1C1917] text-xl hover:text-[#1754F1]  active:text-[#1754F1] transition"
             >
               <span className="w-14 h-14 rounded-full bg-gradient-to-b from-[#F4F8FF] to-[#DCE7FF] shadow-[0_4px_14px_rgba(23,84,241,0.15)] flex items-center justify-center">
                 <LuPhone className="w-6 h-6 text-[#1754F1]" />
@@ -133,7 +133,7 @@ export const Footer = () => {
 
             <a
               href="mailto:info@gmail.com"
-              className="flex items-center gap-4 text-[#1C1917] text-xl hover:text-[#1754F1] transition"
+              className="flex items-center gap-4 text-[#1C1917] text-xl hover:text-[#1754F1] active:text-[#1754F1] transition"
             >
               <span className="w-14 h-14 rounded-full bg-gradient-to-b from-[#F4F8FF] to-[#DCE7FF] shadow-[0_4px_14px_rgba(23,84,241,0.15)] flex items-center justify-center">
                 <LuMail className="w-6 h-6 text-[#1754F1]" />
@@ -145,10 +145,10 @@ export const Footer = () => {
 
         {/* RIGHT: форма */}
         <div className="flex flex-col gap-4">
-            <Heading text={"Подключите минимаркет в вашем помещении"} level={3}/>
+            <Heading text={t("footer.form.title")} level={3}/>
 
           <p className="text-[#6A6A6A] text-md leading-[130%] max-w-2xl">
-            Оставьте заявку — мы свяжемся с вами и расскажем, как быстро установить автономный минимаркет и запустить сервис 24/7.
+            {t("footer.form.desc")}
           </p>
 
           <form className="space-y-4" onSubmit={handleSubmit(onSubmit)}>
@@ -288,11 +288,12 @@ export const Footer = () => {
         <p>{t("bottom.rights")}</p>
         <Link
           to={"/policy"}
-          className="font-vela_sans text-lg hover:text-[#1754F1] transition duration-600 ease-in-out"
+          className="font-vela_sans text-lg hover:text-[#1754F1] active:text-[#1754F1] transition duration-600 ease-in-out"
         >
           {t("bottom.policy")}
         </Link>
-        <p>designed by Ekaterina</p>
+        <p>{t("bottom.developed")}
+        </p>
       </div>
     </div>
   );

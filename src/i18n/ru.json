@@ -1,4 +1,12 @@
 {
+    "header": { 
+        "users": "Пользователям", 
+        "partners": "Партнерам", 
+        "about": "О платформе", 
+        "contacts": "Контакты", 
+        "profile": "Профиль", 
+        "common": { "ok": "Понятно", "close": "Закрыть" } 
+    },
     "modal": {
     "successTitle": "Заявка отправлена",
     "successDesc": "Спасибо! Мы свяжемся с вами в ближайшее время.",
@@ -14,108 +22,282 @@
         },
         "text": "Автономный минимаркет с напитками, снеками и готовой едой, работающий 24/7 без персонала и обеспечивающий быструю и удобную оплату.",
         "btn1": "Оставить заявку",
-        "btn2": "Позвонить",
-        "phoneHref": "tel:+998901234567"
+        "btn2": "Обратный звонок"
     },
 
     "sections": {
         "features": {
         "title": "Возможности",
         "subtext": "минимаркета"
-      }
+        }
     },
 
     "tasks": {
-      "title": {
-        "part1": "Какие задачи ",
-        "part2": "мы решаем"
-      },
-      "features": [
-        {
-          "title": "Повышение комфорта пространства",
-          "desc": "Минимаркет делает помещение удобнее для сотрудников, клиентов и гостей.",
-          "icon": "LuBuilding",
-          "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
+        "title": {
+            "part1": "Какие задачи ",
+            "part2": "мы решаем"
         },
-        {
-          "title": "Быстрая установка",
-          "desc": "Запуск занимает минимум времени — требуется только место и подключение к сети 220В.",
-          "icon": "LuZap",
-          "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-2.png)] bg-contain bg-no-repeat bg-top-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-        },
-        {
-          "title": "Без дополнительных затрат",
-          "desc": "Установка и обслуживание происходят без финансовой нагрузки для арендодателя.",
-          "icon": "LuBadgeDollarSign",
-          "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-        },
-        {
-          "title": "Закрытие потребностей посетителей",
-          "desc": "Снеки, напитки, вода и готовые продукты всегда доступны на месте.",
-          "icon": "GiChocolateBar",
-          "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-3.png)] bg-contain bg-no-repeat bg-bottom-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-        },
-        {
-          "title": "Автономная работа",
-          "desc": "Минимаркет функционирует 24/7 без участия персонала со стороны арендодателя.",
-          "icon": "LuBot",
-          "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-        },
-        {
-          "title": "Регулярное обслуживание",
-          "desc": "Пополнение и контроль выполняются нашей командой 1–2 раза в неделю.",
-          "icon": "LuSettings",
-          "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
-        }
-      ]
+        "features": [
+            {
+            "title": "Повышение комфорта пространства",
+            "desc": "Минимаркет делает помещение удобнее для сотрудников, клиентов и гостей.",
+            "icon": "LuBuilding",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
+            },
+            {
+            "title": "Быстрая установка",
+            "desc": "Запуск занимает минимум времени — требуется только место и подключение к сети 220В.",
+            "icon": "LuZap",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-2.png)] bg-contain bg-no-repeat bg-top-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
+            },
+            {
+            "title": "Без дополнительных затрат",
+            "desc": "Установка и обслуживание происходят без финансовой нагрузки для арендодателя.",
+            "icon": "LuBadgeDollarSign",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
+            },
+            {
+            "title": "Закрытие потребностей посетителей",
+            "desc": "Снеки, напитки, вода и готовые продукты всегда доступны на месте.",
+            "icon": "GiChocolateBar",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between bg-[url(/images/bg-3.png)] bg-contain bg-no-repeat bg-bottom-right shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
+            },
+            {
+            "title": "Автономная работа",
+            "desc": "Минимаркет функционирует 24/7 без участия персонала со стороны арендодателя.",
+            "icon": "LuBot",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
+            },
+            {
+            "title": "Регулярное обслуживание",
+            "desc": "Пополнение и контроль выполняются нашей командой 1–2 раза в неделю.",
+            "icon": "LuSettings",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] hover:bg-[#ECF7FE] hover:color-[#1754F1] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] rounded-2xl p-6 "
+            }
+        ]
     },
 
     "helpGrow": {
-      "title": {
-        "part1": "Что требуется от",
-        "part2": "арендодателя"
-      }
+        "title": {
+            "part1": "Что требуется от",
+            "part2": "арендодателя"
+        }
     },
 
     "requirements": {
-      "items": [
-        {
-          "value": "1 м²",
-          "label": "Небольшая площадь"
-        },
-        {
-          "value": "220 В",
-          "label": "Электропитание",
-          "notePrefix": "Потребление в месяц до ",
-          "noteValue": "XXX Вт"
-        },
-        {
-          "value": "1–2 раза",
-          "label": "Доступ для обслуживания в неделю"
-        }
-      ]
+        "items": [
+            {
+            "value": "1 м²",
+            "label": "Небольшая площадь"
+            },
+            {
+            "value": "220 В",
+            "label": "Электропитание",
+            "notePrefix": "Потребление в месяц до ",
+            "noteValue": "XXX Вт"
+            },
+            {
+            "value": "1–2 раза",
+            "label": "Доступ для обслуживания в неделю"
+            }
+        ]
     },
 
     "profit": {
-      "title": "Почему это",
-      "subtext": "выгодно?",
-      "cards": [
-        {
-          "title": "Минимаркет делает пространство современным, удобным и технологичным.",
-          "desc": "Повышает комфорт для сотрудников, гостей и клиентов, создавая дополнительную ценность вашего помещения.",
-          "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:scale-[1.025] duration-300 hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
-        },
-        {
-          "title": "Формирует позитивный клиентский опыт и усиливает имидж локации.",
-          "desc": "Посетители получают быстрый доступ к напиткам и снекам, а пространство становится более привлекательным и современным.",
-          "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] bg-[url(\"/public/images/bg-2.png\")] bg-no-repeat bg-right-top hover:scale-[1.025] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
-        },
-        {
-          "title": "Работает полностью автономно и не требует участия арендодателя.",
-          "desc": "Мы берём на себя установку, пополнение и обслуживание — вы получаете удобство без дополнительных задач.",
-          "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:scale-[1.025] duration-300 hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
+        "title": "Почему это",
+        "subtext": "выгодно?",
+        "cards": [
+            {
+            "title": "Минимаркет делает пространство современным, удобным и технологичным.",
+            "desc": "Повышает комфорт для сотрудников, гостей и клиентов, создавая дополнительную ценность вашего помещения.",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:scale-[1.025] duration-300 hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
+            },
+            {
+            "title": "Формирует позитивный клиентский опыт и усиливает имидж локации.",
+            "desc": "Посетители получают быстрый доступ к напиткам и снекам, а пространство становится более привлекательным и современным.",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] bg-[url(\"/public/images/bg-2.png\")] bg-no-repeat bg-right-top hover:scale-[1.025] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
+            },
+            {
+            "title": "Работает полностью автономно и не требует участия арендодателя.",
+            "desc": "Мы берём на себя установку, пополнение и обслуживание — вы получаете удобство без дополнительных задач.",
+            "CardClass": "group flex flex-col gap-14 flex-1 justify-between shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_10px_15px_0px_rgba(131,139,180,0.16)] hover:scale-[1.025] duration-300 hover:bg-[#ECF7FE] hover:color-[#1754F1] rounded-2xl p-6 "
+            }
+            ]
         }
-      ]
+    },
+    "connectBusinessForm": { 
+    "title": "Оставьте заявку", 
+    "placeholders": { 
+        "name": "ФИО", 
+        "company": "Название вашей компании", 
+        "phone": "+998 (__) ___-__-__", 
+        "comment": "Комментарий (необязательно)" 
+    }, 
+    "errors": { 
+        "title": "Ошибка отправки", 
+        "generic": "Произошла ошибка. Попробуйте позже.", 
+        "send_failed": "Не удалось отправить заявку", 
+        "network": "Сетевая ошибка. Проверьте соединение.", 
+        "required": "Заполните поле", 
+        "name_min": "Введите не короче 2 символов", 
+        "company_min": "Введите не короче 2 символов", 
+        "phone_invalid": "Некорректный номер", 
+        "comment_max": "Максимум 500 символов" }, 
+        "agree": { "label_prefix": "Соглашаюсь с",
+        "policy_link": "политикой в отношении обработки персональных данных" 
+        }, 
+        "submit": "Отправить заявку", 
+        "validation": { 
+            "name_min": "Введите не короче 2 символов", 
+            "name_required": "Заполните поле", 
+            "company_min": "Введите не короче 2 символов", 
+            "company_required": "Заполните поле", 
+            "phone_required": "Заполните поле", 
+            "phone_invalid": "Некорректный номер", 
+            "comment_max": "Максимум 500 символов", 
+            "agree_required": "Подтвердите согласие" 
+        } 
+    },
+    "bottom": { 
+        "rights": "© 2025 Все права защищены", 
+        "policy": "Политика конфиденциальности", 
+        "developed": "Developed by Ekaterina" 
+        }, 
+    "policy": { 
+        "title": "Политика", 
+        "subtitle": "конфиденциальности", 
+        "content": [ 
+            "Настоящая Политика конфиденциальности определяет порядок сбора, использования, хранения и защиты персональной информации пользователей сайта  MicroMarket.uz.", 
+            "Мы собираем только те данные, которые необходимы для предоставления и улучшения сервиса, включая имя, контактные данные, информацию о заказах и предпочтениях.", 
+            "Персональные данные используются исключительно для оказания услуг, обработки запросов, предоставления скидок и акций, а также для улучшения качества обслуживания.", 
+            "Мы не передаем личные данные третьим лицам, за исключением случаев, предусмотренных законодательством или необходимых для выполнения обязательств перед пользователем.",
+            "Пользователь может в любой момент запросить удаление своих персональных данных, отправив запрос на электронную почту службы поддержки.", 
+            "Используя наше приложение, вы соглашаетесь с условиями данной Политики конфиденциальности." 
+        ] 
+    },
+    "footer": {
+        "contacts": {
+        "title1": "Хотите узнать подробнее?",
+        "title2": "Свяжитесь с нами"
+        },
+        "form": {
+        "title": "Подключите минимаркет в вашем помещении",
+        "desc": "Оставьте заявку — мы свяжемся с вами и расскажем, как быстро установить автономный минимаркет и запустить сервис 24/7."
+        }
+    },
+    "forPartners": {
+        "hero": {
+            "title_prefix": "Первый технологичный бизнес на ладони в",
+            "title_country": "Узбекистане",
+            "subtitle": "Зарабатывайте от 2,5 млн до 4,5 млн в месяц, уделяя бизнесу 15 минут в день.",
+            "btn1": "Оставить заявку",
+            "btn2": "Подробнее о продукте"
+        },
+
+        "whyNow": {
+        "title": "Почему",
+        "subtitle": "сейчас?",
+        "items": [
+            {
+            "title": "Тренд",
+            "desc": "Рост безналичных платежей (Humo/Uzcard) и привычка к QR-оплатам."
+            },
+            {
+            "title": "Уникальность",
+            "desc": "В Узбекистане рынок микромаркетов еще не насыщен."
+            },
+            {
+            "title": "Удобство",
+            "desc": "Люди хотят покупать «здесь и сейчас», не стоя в очередях."
+            }
+        ]
+        },
+
+        "about": {
+        "title": "Что такое",
+        "subtitle": "Mikromarket.uz?",
+        "steps": [
+            "покупатель взял",
+            "отсканировал",
+            "оплатил"
+        ],
+        "advantages": "без кассиров, без аренды больших площадей (нужен всего 1 кв.м.), автоматическая работа 24/7 и быстрый запуск."
+        },
+        "selfService": {
+        "title": "Это точка самообслуживания:",
+        "advantages": "Преимущества:"
+        },
+
+        "numbers": {
+        "title": "Бизнес-модель в",
+        "subtitle": "цифрах",
+        "avgCheck": "Средний чек",
+        "transactions": "Количество транзакций в день",
+        "transactionsHint": "зависит от трафика и локации",
+        "rent": "Аренда места (1 кв.м)",
+        "margin": "Маржинальность"
+        },
+
+        "tech": {
+        "title": "Технологии и",
+        "subtitle": "безопасность",
+        "items": [
+            {
+            "title": "Умное ПО",
+            "desc": "Интеграция с Uzcard, Humo, Click и Payme. Автоматическая фиксация продаж, аналитика и прозрачный контроль финансов."
+            },
+            {
+            "title": "Личный кабинет",
+            "desc": "Контроль остатков, выручки и сроков годности в реальном времени."
+            },
+            {
+            "title": "Система Антивор",
+            "desc": "Видеофиксация каждой покупки и журнал операций."
+            }
+        ]
+        },
+
+        "places": {
+        "title": "Где размещать?",
+        "items": [
+            "Бизнес-центры и офисы",
+            "Жилые комплексы",
+            "Фитнес центры и учебные заведения",
+            "Производства и склады"
+        ]
+        },
+
+        "timeline": {
+        "title": "Пошаговый план",
+        "subtitle": "запуска",
+        "desc": "От договора до первой выручки — в среднем за 14 дней.",
+        "items": [
+            {
+            "day": "День 1",
+            "title": "Подписание договора",
+            "desc": "Фиксируем условия и готовим запуск.",
+            "bullets": [
+                "Оборудование и ПО",
+                "Список проверенных поставщиков"
+            ]
+            },
+            {
+            "day": "День 7",
+            "title": "Подбор и анализ локации",
+            "desc": "Оцениваем трафик и аудиторию.",
+            "bullets": [
+                "Помощь в подборе и анализе локации"
+            ]
+            },
+            {
+            "day": "День 14",
+            "title": "Установка и первая выручка",
+            "desc": "Монтаж и запуск продаж.",
+            "bullets": [
+                "Маркетинговая поддержка и брендинг"
+            ]
+            }
+        ]
+        }
     }
-  }
 }

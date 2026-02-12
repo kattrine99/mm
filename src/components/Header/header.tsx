@@ -4,9 +4,9 @@ import { Modal } from "../index";
 import "./Header.css";
 import { useTranslation } from "react-i18next";
 import { LanguageSelect } from "./LanguageSelect";
-import PhoneCallIcon from '../../assets/phonecall.svg?react'
 import { IoClose } from "react-icons/io5";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { LuPhone } from "react-icons/lu";
 
 export const Header: React.FC = () => {
     const { t } = useTranslation();
@@ -87,7 +87,7 @@ export const Header: React.FC = () => {
                         className="inline-flex items-center justify-center border text-[#1754F1] border-[#1754F1] hover:bg-[#1754F1] hover:text-white transition duration-300 ease-in-out rounded-lg w-12 h-12"
                         aria-label="Call"
                     >
-                        <PhoneCallIcon className="w-6 h-6" />
+                        <LuPhone  className="w-6 h-6" />
                     </a>
 
                     <button
