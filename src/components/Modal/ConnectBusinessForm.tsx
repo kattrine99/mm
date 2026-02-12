@@ -4,6 +4,7 @@ import * as yup from "yup";
 import { Button } from "../Button/Button";
 import { useTranslation } from "react-i18next";
 import type { TFunction } from "i18next";
+import { Link } from "react-router-dom";
 
 const createSchema = (t: TFunction<"translation", undefined>) =>
     yup
@@ -190,8 +191,8 @@ export function ConnectBusinessForm({
                             />
                             <span className="text-[#0B0B0BCC]">
                                 {t('connectBusinessForm.agree.label_prefix')}{" "}
-                                <a href="/policy" className="text-[#0088E7] underline underline-offset-2">
-                                    {t('connectBusinessForm.agree.policy_link')} </a>
+                                <Link to="/policy" className="text-[#0088E7] underline underline-offset-2">
+                                    {t('connectBusinessForm.agree.policy_link')} </Link>
                             </span>
                         </label>
                         {errors.agree && <p className="mt-1 text-sm text-red-600">{errors.agree.message}</p>}
