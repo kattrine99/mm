@@ -88,33 +88,33 @@ export const ForParnters = () => {
                 imgURL={"/images/mm-bg.png"} 
                 styleClass="bg-cover bg-right"/>
 
-            <div className="sm:px-6 md:px-8 min-[1060px]:px-10 xl:px-15 2xl:px-25 pt-[clamp(40px,6vw,200px)]">
+            <div className="px-6 md:px-8 min-[1060px]:px-10 xl:px-15 2xl:px-25 pt-[clamp(40px,6vw,200px)]">
                 <Heading text={t("forPartners.whyNow.title")} level={2} subtext={t("forPartners.whyNow.subtitle")} />
                 <div className="flex flex-col gap-10 pt-[clamp(32px,_3.5vw,_48px)] ">
-                    <div className="group flex items-center gap-6 shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_6px_15px_0px_rgba(23,84,241,0.16)] rounded-2xl p-6">
+                    <div className="group flex flex-col sm:flex-row items-start sm:items-center gap-6 shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_6px_15px_0px_rgba(23,84,241,0.16)] rounded-2xl p-6">
                         <div className="flex items-center justify-center bg-[#ECF7FE] rounded-full p-4 ">
-                            <RiNumber1 className="text-white group-hover:text-[#1754F1] group-active:text-[#1754F1] duration-500 w-15 h-15"/>
+                            <RiNumber1 className="text-white group-hover:text-[#1754F1] group-active:text-[#1754F1] duration-500 w-10 h-10 sm:w-15 sm:h-15"/>
                         </div>
                         <div className="flex flex-col gap-3 items-start max-lg:pl-6 pl-10">
-                            <h3 className="text-4xl leading-tight font-bold text-[#1754F1]">{t("forPartners.whyNow.items.0.title")}</h3>
+                            <h3 className="text-3xl sm:text-4xl leading-tight font-bold text-[#1754F1]">{t("forPartners.whyNow.items.0.title")}</h3>
                             <p className="text-lg text-[#6A6A6A]">{t("forPartners.whyNow.items.0.desc")}</p>
                         </div>
                     </div>
-                    <div className="group flex items-center gap-6 shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_6px_15px_0px_rgba(23,84,241,0.16)] rounded-2xl p-6">
+                    <div className="group flex flex-col sm:flex-row items-start sm:items-center gap-6 shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_6px_15px_0px_rgba(23,84,241,0.16)] rounded-2xl p-6">
                         <div className="flex items-center justify-center bg-[#ECF7FE] rounded-full p-4 ">
-                            <RiNumber2 className="text-white group-hover:text-[#1754F1] group-active:text-[#1754F1] duration-500 w-15 h-15"/>
+                            <RiNumber2 className="text-white group-hover:text-[#1754F1] group-active:text-[#1754F1] duration-500 w-10 h-10 sm:w-15 sm:h-15"/>
                         </div>
                         <div className="flex flex-col gap-3 items-start max-lg:pl-6 pl-10">
-                            <h3 className="text-4xl leading-tight font-bold text-[#1754F1]">{t("forPartners.whyNow.items.1.title")}</h3>
+                            <h3 className="text-3xl sm:text-4xl leading-tight font-bold text-[#1754F1]">{t("forPartners.whyNow.items.1.title")}</h3>
                             <p className="text-lg text-[#6A6A6A]">{t("forPartners.whyNow.items.1.desc")}</p>
                         </div>
                     </div>
-                    <div className="group flex items-center gap-6 shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_6px_15px_0px_rgba(23,84,241,0.16)] rounded-2xl p-6">
+                    <div className="group flex flex-col sm:flex-row items-start sm:items-center gap-6 shadow-[0px_4px_12px_0px_rgba(131,139,180,0.16)] hover:scale-[1.005] duration-300 hover:shadow-[0px_6px_15px_0px_rgba(23,84,241,0.16)] rounded-2xl p-6">
                         <div className="flex items-center justify-center bg-[#ECF7FE] rounded-full p-4 ">
-                            <RiNumber3 className="text-white group-hover:text-[#1754F1] group-active:text-[#1754F1] duration-500 w-15 h-15"/>
+                            <RiNumber3 className="text-white group-hover:text-[#1754F1] group-active:text-[#1754F1] duration-500 w-10 h-10 sm:w-15 sm:h-15"/>
                         </div>
                         <div className="flex flex-col gap-3 items-start max-lg:pl-6 pl-10">
-                            <h3 className="text-4xl leading-tight font-bold text-[#1754F1]">{t("forPartners.whyNow.items.2.title")}</h3>
+                            <h3 className="text-3xl sm:text-4xl leading-tight font-bold text-[#1754F1]">{t("forPartners.whyNow.items.2.title")}</h3>
                             <p className="text-lg text-[#6A6A6A]">{t("forPartners.whyNow.items.2.desc")}</p>
                         </div>
                     </div>
