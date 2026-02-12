@@ -7,6 +7,4 @@ export { Heading } from "./Heading/Heading"
 export { Modal } from "./Modal/Modal";
 export { ConnectBusinessModal } from "./Modal/ConnectBusinessModal";
 export { ConnectBusinessForm } from "./Modal/ConnectBusinessForm";
-export { BusinessSwiper } from "./BusinessSwiper/BusinessSwiper";
-export { AppScreensSwiper } from "./AppScreensSwiper/AppScreensSwiper";
-export { RootLayout } from "./ScrollTotop/rootLayout"
+export { RootLayout } from "./ScrollTotop/rootLayout";

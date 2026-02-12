@@ -58,19 +58,19 @@ export function ConnectBusinessForm({
         control,
         handleSubmit,
         formState: { errors, isValid, isSubmitting },
-      } = useForm<FormValues>({
-        mode: "onChange",
-        resolver: yupResolver(schema),
-        defaultValues: {
-          name: "",
-          company: "",
-          phone: "",
-          comment: "",
-          agree: false,
-        },
-      });
+        } = useForm<FormValues>({
+            mode: "onChange",
+            resolver: yupResolver(schema),
+            defaultValues: {
+            name: "",
+            company: "",
+            phone: "",
+            comment: "",
+            agree: false,
+            },
+        });
     
-      function formatUzPhone(input: string) {
+        function formatUzPhone(input: string) {
         const d = input.replace(/\D/g, "");
         const core = d.startsWith("998") ? d.slice(3) : d;
         const withCode = "998" + core;
@@ -78,36 +78,38 @@ export function ConnectBusinessForm({
         const pad = (s: string, n: number) => (s + "_".repeat(n)).slice(0, n);
         const p = pad(digits, 9).split("");
         return `+998 (${p[0]}${p[1]}) ${p[2]}${p[3]}${p[4]}-${p[5]}${p[6]}-${p[7]}${p[8]}`
-          .replace(/[_()-\s]+$/g, "");
-      }
-    
-      const onSubmit = async (data: FormValues) => {
-      const digits = data.phone.replace(/\D/g, "");
-      const normalized = `+${digits.startsWith("998") ? digits : "998" + digits}`;
-    
-      try {
-        const resp = await fetch("/api/telegram", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            name: data.name,
-            company: data.company,
-            phone: normalized,
-            comment: data.comment || "",
-          }),
-        });
-    
-        const json = await resp.json().catch(() => null);
-        if (!resp.ok || !json?.ok) {
-          throw new Error(json?.description || `HTTP ${resp.status}`);
+            .replace(/[_()-\s]+$/g, "");
         }
     
-        alert("Заявка отправлена! Мы скоро свяжемся с вами.");
-      } catch (e: any) {
-        console.error(e);
-        alert(`Не удалось отправить заявку: ${e?.message || "ошибка сети"}`);
-      }
-    };
+        const onSubmit = async (data: FormValues) => {
+        const digits = data.phone.replace(/\D/g, "");
+        const normalized = `+${digits.startsWith("998") ? digits : "998" + digits}`;
+
+        try {
+            const resp = await fetch("/api/telegram", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                name: data.name,
+                company: data.company,
+                phone: normalized,
+                comment: data.comment || "",
+            }),
+            });
+
+            const json = await resp.json().catch(() => null);
+            if (!resp.ok || !json?.ok) {
+            throw new Error(json?.description || `HTTP ${resp.status}`);
+            }
+
+            onSubmitOk?.({ ...data, phone: normalized }); // ✅ фикс TS6133
+
+            alert("Заявка отправлена! Мы скоро свяжемся с вами.");
+        } catch (e: any) {
+            console.error(e);
+            alert(`Не удалось отправить заявку: ${e?.message || "ошибка сети"}`);
+        }
+        };
 
 
     return (
