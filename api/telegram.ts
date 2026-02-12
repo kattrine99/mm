@@ -2,8 +2,17 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
     try {
-        if (req.method !== 'POST') return res.status(405).json({ ok: false, error: 'Method Not Allowed' });
-
+         if (req.method === "GET") {
+            return res.status(200).json({
+                ok: true,
+                hasToken: !!process.env.TG_BOT_TOKEN,
+                hasChatId: !!process.env.TG_CHAT_ID,
+            });
+        }
+        if (req.method !== "POST") {
+        return res.status(405).json({ ok: false, description: "Method Not Allowed" });
+        }
+        
         const { name, company, phone, comment } = req.body as {
             name: string; company: string; phone: string; comment?: string;
         };
