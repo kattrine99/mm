@@ -80,7 +80,7 @@ export const ForParnters = () => {
                     <span className="text-[#0088E7]">{t("forPartners.hero.title_country")}</span>
                     
                 </>}
-                text={t("aboutPlatform.hero.subtitle")}
+                text={t("forPartners.hero.subtitle")}
                 buttonText1={t('aboutPlatform.hero.btn1')}
                 buttonGoTo1={() => setFormOpen(true)}
                 buttonText2={t("forPartners.hero.btn2")}
