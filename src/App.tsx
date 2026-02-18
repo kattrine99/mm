@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './App.css';
 import 'swiper';
-import { ForParnters, AboutPlatform, Policy } from "./pages/index";
+import { ForParnters, Franchise, Policy, MainPage } from "./pages/index";
 import "./i18n/index";
 import { RootLayout } from "./components";
 
@@ -10,9 +10,9 @@ function App() {
     {
       element: <RootLayout />,
       children: [
-        { path: "/", element: <AboutPlatform /> },
+        { path: "/", element: <MainPage /> },
         { path: "/for_partners", element: <ForParnters /> },
-        { path: "/about_platform", element: <AboutPlatform /> },
+        { path: "/franchise", element: <Franchise /> },
         { path: "/policy", element: <Policy /> },
       ],
     },

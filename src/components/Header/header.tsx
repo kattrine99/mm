@@ -43,7 +43,7 @@ export const Header: React.FC = () => {
         <header className="sticky top-0 z-40 bg-white shadow-lg/60 shadow-[#838BB429]">
             <div className="flex items-center justify-between py-[clamp(10px,4vw,16px)] px-4 sm:px-6 md:px-8 min-[1060px]:px-10 xl:px-15 2xl:px-25">
                 <div className="icon">
-                    <Link to={"/about_platform"}>
+                    <Link to={"/"}>
                         {/* <img src="/images/logo-da.svg" alt="logo" className="h-15 w-15" /> */}
                         <p className="text-2xl text-[#1754F1]">LOGO</p>
                     </Link>
@@ -52,8 +52,8 @@ export const Header: React.FC = () => {
                 {/* DESKTOP */}
                 <div className="hidden min-[1160px]:flex items-center gap-[clamp(12px,2.2vw,25.5px)]">
                     <nav className="flex items-center gap-10">
-                        <Link to={"/about_platform"} className="font-vela_sans text-lg hover:text-[#1754F1] transition duration-600 ease-in-out">
-                            {t("header.about")}
+                        <Link to={"/franchise"} className="font-vela_sans text-lg hover:text-[#1754F1] transition duration-600 ease-in-out">
+                            {t("header.franchise")}
                         </Link>
                         <Link to={"/for_partners"} className="font-vela_sans text-lg hover:text-[#1754F1] transition duration-600 ease-in-out">
                             {t("header.partners")}
@@ -118,9 +118,10 @@ export const Header: React.FC = () => {
                     aria-modal="true"
                 >
                     <div className="flex items-center justify-between p-4 ">
-                        {/*<Link to="/main" onClick={() => setOpen(false)}>
-                            <img src="/images/logo-da.svg" alt="Logo" className="h-15 w-15" />
-                        </Link>*/}
+                         <Link to={"/"}>
+                        {/* <img src="/images/logo-da.svg" alt="logo" className="h-15 w-15" /> */}
+                        <p className="text-2xl text-[#1754F1]">LOGO</p>
+                        </Link>
                         <button
                             type="button"
                             onClick={() => setOpen(false)}
@@ -132,8 +133,8 @@ export const Header: React.FC = () => {
                     </div>
 
                     <nav className="flex flex-col p-4 gap-2 text-lg">
-                        <Link to="/about_platform" onClick={() => setOpen(false)} className="py-3 px-2 rounded hover:bg-[#F5FBFF] hover:text-[#1754F1] transition">
-                            {t("header.about")}
+                        <Link to="/franchise" onClick={() => setOpen(false)} className="py-3 px-2 rounded hover:bg-[#F5FBFF] hover:text-[#1754F1] transition">
+                            {t("header.franchise")}
                         </Link>
                         <Link to="/for_partners" onClick={() => setOpen(false)} className="py-3 px-2 rounded hover:bg-[#F5FBFF] hover:text-[#1754F1] transition">
                             {t("header.partners")}
