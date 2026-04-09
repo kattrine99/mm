@@ -125,8 +125,8 @@ export const Footer = () => {
               href="tel:+998555181991"
               className="flex items-center gap-4 text-[#1C1917] text-xl hover:text-[#1754F1]  active:text-[#1754F1] transition"
             >
-              <span className="w-14 h-14 rounded-full bg-gradient-to-b from-[#F4F8FF] to-[#DCE7FF] shadow-[0_4px_14px_rgba(23,84,241,0.15)] flex items-center justify-center">
-                <LuPhone className="w-6 h-6 text-[#1754F1]" />
+              <span className="flex rounded-full items-center justify-center w-15 h-15 bg-[#F1F9FF] text-[#1754F1]">
+                <LuPhone className="w-8 h-8 text-[#1754F1]" />
               </span>
               +998 (55) 518-19-91
             </a>
@@ -135,8 +135,8 @@ export const Footer = () => {
               href="mailto:info@gmail.com"
               className="flex items-center gap-4 text-[#1C1917] text-xl hover:text-[#1754F1] active:text-[#1754F1] transition"
             >
-              <span className="w-14 h-14 rounded-full bg-gradient-to-b from-[#F4F8FF] to-[#DCE7FF] shadow-[0_4px_14px_rgba(23,84,241,0.15)] flex items-center justify-center">
-                <LuMail className="w-6 h-6 text-[#1754F1]" />
+              <span className="flex rounded-full items-center justify-center w-15 h-15 bg-[#F1F9FF] text-[#1754F1]">
+                <LuMail className="w-8 h-8 text-[#1754F1]" />
               </span>
               info@gmail.com
             </a>

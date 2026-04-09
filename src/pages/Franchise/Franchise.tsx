@@ -6,6 +6,8 @@ import {  LuPiggyBank } from "react-icons/lu";
 import { RiLineChartLine, RiNumber1, RiNumber2, RiNumber3 } from "react-icons/ri";
 import { MdBusinessCenter } from "react-icons/md";
 import { BiTrendingUp } from "react-icons/bi";
+import { GrMoney } from "react-icons/gr";
+import { HiBuildingOffice2 } from "react-icons/hi2";
 
 export const Franchise = () => {
     const [formOpen, setFormOpen] = useState(false);
@@ -81,26 +83,26 @@ export const Franchise = () => {
                     <Heading text='Кому подойдёт формат' level={2} subtext='микромаркета'/>
                     <div className="pt-[clamp(24px,6vw,64px)] flex flex-col lg:grid grid-cols-2  gap-4 ">
                         <div className="flex flex-row gap-8 p-6 justify-start items-center">
-                            <div className="flex rounded-full items-center justify-center w-15 h-15 bg-[#F1F9FF] text-[#1754F1]">
+                            <div className="flex shrink-0 rounded-full items-center justify-center w-15 h-15 bg-[#F1F9FF] text-[#1754F1]">
                                 <MdBusinessCenter  className="w-8 h-8"/>
                             </div>
                             <p className="text-2xl text-[#1C1917]">Предпринимателям</p>
                         </div>
                         <div className="flex flex-row gap-8 p-6 justify-start items-center">
-                            <div className="flex rounded-full items-center justify-center w-15 h-15 bg-[#F1F9FF] text-[#1754F1]">
+                            <div className="flex shrink-0 rounded-full items-center justify-center w-15 h-15 bg-[#F1F9FF] text-[#1754F1]">
                                 <RiLineChartLine  className="w-8 h-8"/>
                             </div>
                             <p className="text-2xl text-[#1C1917]">Инвесторам</p>
                         </div>
                         <div className="flex flex-row gap-8 p-6 justify-start items-center">
-                            <div className="flex rounded-full items-center justify-center w-15 h-15 bg-[#F1F9FF] text-[#1754F1]">
-                                <BiTrendingUp  className="w-8 h-8"/>
+                            <div className="flex shrink-0 rounded-full items-center justify-center w-15 h-15 bg-[#F1F9FF] text-[#1754F1]">
+                                <HiBuildingOffice2   className="w-8 h-8"/>
                             </div>
                             <p className="text-2xl text-[#1C1917]">Владельцам недвижимости</p>
                         </div>
                         <div className="flex flex-row gap-8 p-6 justify-start items-center">
-                            <div className="flex rounded-full items-center justify-center w-15 h-15 bg-[#F1F9FF] text-[#1754F1]">
-                                <LuPiggyBank  className="w-8 h-8"/>
+                            <div className="flex shrink-0 rounded-full items-center justify-center w-15 h-15 bg-[#F1F9FF] text-[#1754F1]">
+                                <GrMoney className="w-8 h-8"/>
                             </div>
                             <p className="text-2xl text-[#1C1917]">Тем, кто хочет пассивный доход</p>
                         </div>
