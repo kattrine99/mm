@@ -1,11 +1,9 @@
 import { BlockWindow, Header, PercentsCards, Heading, Footer, ConnectBusinessModal, Modal } from "../../components";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import {  LuPiggyBank } from "react-icons/lu";
 
 import { RiLineChartLine, RiNumber1, RiNumber2, RiNumber3 } from "react-icons/ri";
 import { MdBusinessCenter } from "react-icons/md";
-import { BiTrendingUp } from "react-icons/bi";
 import { GrMoney } from "react-icons/gr";
 import { HiBuildingOffice2 } from "react-icons/hi2";
 
