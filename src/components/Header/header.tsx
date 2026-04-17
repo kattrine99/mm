@@ -44,8 +44,7 @@ export const Header: React.FC = () => {
             <div className="flex items-center justify-between py-[clamp(10px,4vw,16px)] px-4 sm:px-6 md:px-8 min-[1060px]:px-10 xl:px-15 2xl:px-25">
                 <div className="icon">
                     <Link to={"/"}>
-                        {/* <img src="/images/logo-da.svg" alt="logo" className="h-15 w-15" /> */}
-                        <p className="text-2xl text-[#1754F1]">LOGO</p>
+                         <img src="/images/logo.svg" alt="logo" className="h-15" /> 
                     </Link>
                 </div>
 
@@ -119,8 +118,7 @@ export const Header: React.FC = () => {
                 >
                     <div className="flex items-center justify-between p-4 ">
                          <Link to={"/"}>
-                        {/* <img src="/images/logo-da.svg" alt="logo" className="h-15 w-15" /> */}
-                        <p className="text-2xl text-[#1754F1]">LOGO</p>
+                        <img src="/images/logo.svg" alt="logo" className="h-15" /> 
                         </Link>
                         <button
                             type="button"
